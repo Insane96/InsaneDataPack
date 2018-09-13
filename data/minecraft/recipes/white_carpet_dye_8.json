@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "carpet_8",
+  "pattern": [
+    "###",
+    "#c#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:carpets"
+    },
+	"c": {
+	  "item": "minecraft:bone_meal"
+	}
+  },
+  "result": {
+    "item": "minecraft:white_carpet",
+    "count": 8
+  }
+}

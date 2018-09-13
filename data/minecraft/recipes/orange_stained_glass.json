@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "stained_glass",
+  "pattern": [
+    "###",
+    "#c#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:any_glass"
+    },
+	"c": {
+	  "item": "minecraft:orange_dye"
+	}
+  },
+  "result": {
+    "item": "minecraft:orange_stained_glass",
+    "count": 8
+  }
+}

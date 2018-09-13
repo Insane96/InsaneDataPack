@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shapeless",
+  "group": "carpet_dye",
+  "ingredients": [
+    {
+      "tag": "minecraft:carpets"
+    },
+	{
+	  "item": "minecraft:light_blue_dye"
+	}
+  ], 
+  "result": {
+    "item": "minecraft:light_blue_carpet"
+
+  }
+}

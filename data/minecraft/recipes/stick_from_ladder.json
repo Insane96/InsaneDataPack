@@ -1,0 +1,13 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:ladder"
+		}
+	],
+	"result":
+	{
+		"item": "minecraft:stick",
+		"count": 2
+	}
+}

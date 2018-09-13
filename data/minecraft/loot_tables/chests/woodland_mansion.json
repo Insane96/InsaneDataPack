@@ -1,0 +1,308 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:lead",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 15
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_13",
+                    "weight": 15
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_cat",
+                    "weight": 15
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:name_tag",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_chestplate",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_hoe",
+                    "weight": 15
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bread",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wheat",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bucket",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:coal",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:melon_seeds",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:pumpkin_seeds",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:beetroot_seeds",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 10
+                }
+            ]
+        },
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:bone",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gunpowder",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:string",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.50
+				}
+			],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+						{
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§rWhen in inventory increases\",\"§ryour max health by 2 hearts.\", \"§rEffect doesn't stack\"]},SkullOwner:{Id:\"b49b235e-9091-4491-9172-db56ba8f2eb5\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNhYTc0NDZiZTg3NGJmMWExNGVkMWZjZWZjYzBhMDkyMzM2YzFiZjViZjQ2NWU5ZDI1NGRlZTM0YWZlYTc5In19fQ==\"}]}}}"
+                        },
+						{
+							"function": "set_name",
+							"name": 
+							{
+								"text": "Heart Canister",
+								"italic": false,
+								"color": "red"
+							}
+						}
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+						{
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§rWhen in inventory increases\",\"§ryour max health by 2 hearts.\", \"§rEffect doesn't stack\"]},SkullOwner:{Id:\"13941c55-d8c8-4844-be69-73bb9469f6e1\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGVkNjFhNzg5NmZiYjczY2Y1ZWVjOWNhOTEyNTJmM2ZiZWNhYThlN2YyZmQyZDIzMWI3MzEyODZkNTY5MSJ9fX0=\"}]}}}"
+                        },
+						{
+							"function": "set_name",
+							"name": 
+							{
+								"text": "Heart Canister",
+								"italic": false
+							}
+						}
+                    ]
+                }
+            ]
+		}
+    ]
+}

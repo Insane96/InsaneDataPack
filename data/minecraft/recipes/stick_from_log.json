@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "slabs_to_block",
+  "pattern": [
+    "l",
+	"l"
+  ],
+  "key": {
+    "l": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+	"count": 16
+  }
+}

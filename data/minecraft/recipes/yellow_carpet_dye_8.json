@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "carpet_8",
+  "pattern": [
+    "###",
+    "#c#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:carpets"
+    },
+	"c": {
+	  "item": "minecraft:dandelion_yellow"
+	}
+  },
+  "result": {
+    "item": "minecraft:yellow_carpet",
+    "count": 8
+  }
+}

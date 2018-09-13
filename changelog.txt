@@ -1,0 +1,52 @@
+SMELTING RECIPES
+	*Changed some smelting recipes to take more / less time to smelt
+		*Most of the times to smelt have been reduced except for gold and iron ore
+HEADS
+	*Added Missing Phantom Head
+	*Shulkers head drop rate is now lower with looting
+	
+LOOT
+	*Higher levels Tools, Armor, etc. generation rate sightly lower and no longer have a random enchantment
+
+RECIPES
+	*Added a ladder uncrafting recipe
+
+FUNCTION MODULES
+*Added Basic Bedrock Breaker
+	*Craftable with some redstone and one obsidian, plus a not enchanted diamond pickaxe
+	*Breaks the adiacent blocks (3x1x3 area)
+	*Takes 25 minutes to finish
+	*The diamond pickaxe returns completely broken on finish
+*Bedrock breaker
+	*Now breaks every block around at the same level and a level up (an area 3x2x3)
+	*Requires 2 more obsidian and 2 more redstone blocks to be created
+	*Now requires a non-damaged diamond pickaxe
+	*Efficiency on the diamond pick is now kept when the machine finishes
+	*When machine finishes you get back the hopper too
+	*Level requirements and diamonds for pickaxe repair now varies based on efficiency level on the pick (values below are to fully repair the pickaxe)
+		*Efficiency 5: 	3 Diamonds and 7 XP Levels required
+		*Efficiency 4: 	3 Diamonds and 6 XP Levels required
+		*Efficiency 3: 	3 Diamonds and 5 XP Levels required
+		*Efficiency 2: 	2 Diamonds and 4 XP Levels required
+		*Efficiency 1: 	2 Diamonds and 3 XP Levels required
+		*No-Efficiency: 1 Diamond  and 2 XP Levels required
+	*Time to break bedrock has been increased
+		*Efficiency 5: 3 mins -> 5 mins
+		*Efficiency 4: 6 mins -> 9 mins
+		*Efficiency 3: 9 mins -> 12 mins
+		*Efficiency 2: 12 mins -> 15 mins
+		*Efficiency 1: 15 mins -> 20 mins
+		*No-Efficiency: 20 mins -> 25 mins
+	*Fixed Sound
+*XP Holder
+	*Right-clicking the chest now tells you the stored experience
+	*If you shift on top of the chest, your XP will be drained thrice as fast
+	*Now Takes 20 level of experience from the nearest player. If the player has not enough experience then the crafting will fail
+	*Changed recipe to use less enchanted books
+		 H
+		BEB
+		 H
+		B = Experience Bottle
+		H = Hopper
+		E = Enchanted book (any)
+	*You now get back all the experience bottles and hoppers when you break the XP Holder. You get back 3/4 of experience used too

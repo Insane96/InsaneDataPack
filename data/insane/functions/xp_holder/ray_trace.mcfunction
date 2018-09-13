@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ minecraft:chest align xyz positioned ~.9 ~.05 ~0.2 if entity @e[type=armor_stand,tag=xp_holder,distance=..0.25] run title @s actionbar [{"text":"Stored Experience: "},{"score":{"name":"@e[type=armor_stand,tag=xp_holder,distance=..0.25]","objective":"xpHeld"}}]
+#execute if block ~ ~ ~ minecraft:chest run say hi
+execute unless block ~ ~ ~ minecraft:chest positioned ^ ^ ^.1 run function insane:xp_holder/ray_trace

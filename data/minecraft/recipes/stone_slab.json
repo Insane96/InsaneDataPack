@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "group": "stone_slab",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_slab",
+    "count": 6
+  }
+}
