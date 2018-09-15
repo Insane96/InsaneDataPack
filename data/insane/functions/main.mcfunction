@@ -9,6 +9,7 @@ scoreboard players add tick_two Tick 1
 function insane:bedrock_breaker/tick
 function insane:xp_holder/tick
 function insane:heart_canister/tick
+function insane:feather_crops
 
 #Help Book
 execute if score tick_second Tick matches 20 run function insane:help_book
