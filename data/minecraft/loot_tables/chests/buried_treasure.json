@@ -27,7 +27,7 @@
 							"count":
 							{
 								"min": 1,
-								"max": 4
+								"max": 2
 							}
 						}
 					]
@@ -42,7 +42,7 @@
 							"count":
 							{
 								"min": 1,
-								"max": 4
+								"max": 2
 							}
 						}
 					]
@@ -57,7 +57,7 @@
 							"count":
 							{
 								"min": 1,
-								"max": 2
+								"max": 3
 							}
 						}
 					]
@@ -80,8 +80,8 @@
 							"function": "minecraft:set_count",
 							"count":
 							{
-								"min": 4,
-								"max": 8
+								"min": 2,
+								"max": 4
 							}
 						}
 					]
@@ -96,7 +96,7 @@
 							"count":
 							{
 								"min": 1,
-								"max": 2
+								"max": 1
 							}
 						}
 					]
@@ -115,25 +115,6 @@
 							}
 						}
 					]
-				}
-			]
-		},
-		{
-			"rolls":
-			{
-				"min": 0,
-				"max": 1
-			},
-			"entries": [
-				{
-					"type": "item",
-					"name": "minecraft:leather_chestplate",
-					"weight": 1
-				},
-				{
-					"type": "item",
-					"name": "minecraft:iron_sword",
-					"weight": 1
 				}
 			]
 		},
@@ -177,7 +158,7 @@
 			"conditions":[
 				 {
 					"condition": "random_chance",
-					"chance": 0.5
+					"chance": 0.25
 				 }
 			],
             "entries": [
@@ -207,7 +188,7 @@
 			"conditions":[
 				 {
 					"condition": "random_chance",
-					"chance": 0.5
+					"chance": 0.333
 				 }
 			],
             "entries": [

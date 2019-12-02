@@ -9,6 +9,11 @@ Abandoned Mineshaft
 	Gold Pickaxe now has a random level of Fortune (also a free advice added)
 	Removed Activator and Detector Rails also increased Powered and Normal Rails amount
 	Advanced Golden Pickaxe now has Efficiency 7 instead of 10, making it less likely to break unwanted blocks. Also fixed Lore for newer versions
+Buried Treasure
+	Removed Leather Chestplate and Iron Sword from loot
+	Reduced precious loot amount
+	Halved Creeper Plush chance
+	Reduced Trident chance
 	
 
 --------------------------------------------
