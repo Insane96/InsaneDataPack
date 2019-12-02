@@ -1,2 +1,0 @@
-execute as @a[scores={playerChestOpen=1..}] at @s anchored eyes positioned ^ ^ ^ anchored feet run function insane:xp_holder/ray_trace
-scoreboard players set @a[scores={playerChestOpen=1..}] playerChestOpen 0

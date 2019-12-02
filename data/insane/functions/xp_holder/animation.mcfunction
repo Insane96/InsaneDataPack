@@ -1,1 +1,0 @@
-execute at @e[tag=xp_holder,type=armor_stand] align xyz positioned ~.5 ~1 ~.5 run particle minecraft:enchant ~ ~ ~ 0 0 0 .5 1

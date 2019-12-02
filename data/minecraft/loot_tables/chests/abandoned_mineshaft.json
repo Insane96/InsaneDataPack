@@ -81,7 +81,7 @@
 							}
 						}
 					],
-					"weight": 3
+					"weight": 2
 				},
 				{
 					"type": "item",
@@ -116,18 +116,8 @@
 			]
 		},
 		{
-			"rolls": 2,
+			"rolls": 1,
 			"entries": [
-				{
-					"type": "item",
-					"name": "minecraft:saddle",
-					"weight": 4
-				},
-				{
-					"type": "item",
-					"name": "minecraft:name_tag",
-					"weight": 5
-				},
 				{
 					"type": "item",
 					"name": "minecraft:melon_slice",
@@ -177,22 +167,6 @@
 					"type": "item",
 					"name": "minecraft:golden_apple",
 					"weight": 2
-				},
-				{
-					"type": "item",
-					"name": "minecraft:iron_horse_armor",
-					"weight": 5
-				},
-				{
-					"type": "item",
-					"name": "minecraft:golden_horse_armor",
-					"weight": 3
-				},
-				{
-					"type": "item",
-					"name": "minecraft:diamond_horse_armor",
-					"weight": 1,
-					"quality": 5
 				}
 			]
 		},
@@ -227,12 +201,6 @@
 						{
 							"function": "enchant_randomly",
 							"enchantments": [
-								"fortune"
-							]
-						},
-						{
-							"function": "enchant_randomly",
-							"enchantments": [
 								"efficiency",
 								"unbreaking"
 							]
@@ -245,17 +213,20 @@
 					"weight": 5,
 					"functions": [
 						{
-							"function": "enchant_randomly",
-							"enchantments": [
-								"efficiency"
-							]
-						},
-						{
 							"function": "set_damage",
 							"damage":
 							{
 								"min": 0.80,
 								"max": 1
+							}
+						},
+						{
+							"function": "enchant_with_levels",
+							"treasure": true,
+							"levels":
+							{
+								"min": 5,
+								"max": 10
 							}
 						}
 					]
@@ -278,12 +249,25 @@
 							]
 						},
 						{
+							"function": "enchant_randomly",
+							"enchantments": [
+								"fortune"
+							]
+						},
+						{
 							"function": "set_damage",
 							"damage":
 							{
 								"min": 0.75,
-								"max": 1
+								"max": 0.95
 							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{"text": ""},
+								{"text":"You should definitely use this on Coal", "color":"dark_gray", "italic": false}
+							]
 						}
 					]
 				},
@@ -324,8 +308,8 @@
 							"function": "set_count",
 							"count":
 							{
-								"min": 4,
-								"max": 8
+								"min": 6,
+								"max": 12
 							}
 						}
 					],
@@ -339,38 +323,8 @@
 							"function": "set_count",
 							"count":
 							{
-								"min": 2,
-								"max": 4
-							}
-						}
-					],
-					"weight": 5
-				},
-				{
-					"type": "item",
-					"name": "minecraft:detector_rail",
-					"functions": [
-						{
-							"function": "set_count",
-							"count":
-							{
-								"min": 2,
-								"max": 4
-							}
-						}
-					],
-					"weight": 5
-				},
-				{
-					"type": "item",
-					"name": "minecraft:activator_rail",
-					"functions": [
-						{
-							"function": "set_count",
-							"count":
-							{
-								"min": 2,
-								"max": 4
+								"min": 4,
+								"max": 7
 							}
 						}
 					],
@@ -439,7 +393,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{HideFlags:1,display:{Lore:[\"§7Efficency X\",\"§7Unbreaking L (50)\"]},Enchantments:[{id:\"minecraft:efficiency\",lvl:10},{id:\"minecraft:unbreaking\",lvl:50}]}"
+							"tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:efficiency\",lvl:7},{id:\"minecraft:unbreaking\",lvl:50}]}"
 						},
 						{
 							"function": "set_name",
@@ -450,6 +404,13 @@
 								"bold": true,
 								"italic": false
 							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{"text":"Efficency VII", "color":"gray", "italic": false},
+								{"text":"Unbreaking L", "color":"gray", "italic": false}
+							]
 						}
 					]
 				}
