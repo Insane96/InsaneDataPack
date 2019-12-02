@@ -17,6 +17,7 @@ Buried Treasure
 Desert Pyramid
 	Removed Saddle, Gold and Diamond Horse Armor
 	Slightly reduced Iron and Diamond amount
+	Slightly Increased Cactus Armor Chance
 	
 
 --------------------------------------------
