@@ -14,6 +14,9 @@ Buried Treasure
 	Reduced precious loot amount
 	Halved Creeper Plush chance
 	Reduced Trident chance
+Desert Pyramid
+	Removed Saddle, Gold and Diamond Horse Armor
+	Slightly reduced Iron and Diamond amount
 	
 
 --------------------------------------------
