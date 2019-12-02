@@ -1,3 +1,18 @@
+2.0.0
+LOOT
+Abandoned Mineshaft
+	Diamond is now rarer
+	Removed Saddle, Horse Armor and Name Tag, Minecraft needs more uniquely-obtainable items
+	Reduced food chance
+	Enchanted book no longer has Fortune
+	Iron Pickaxe is now enchanted randomly between 5 and 10 levels instead of having a random level of Efficiency
+	Gold Pickaxe now has a random level of Fortune (also a free advice added)
+	Removed Activator and Detector Rails also increased Powered and Normal Rails amount
+	Advanced Golden Pickaxe now has Efficiency 7 instead of 10, making it less likely to break unwanted blocks. Also fixed Lore for newer versions
+	
+
+--------------------------------------------
+
 SMELTING RECIPES
 	*Changed some smelting recipes to take more / less time to smelt
 		*Most of the times to smelt have been reduced except for gold and iron ore
