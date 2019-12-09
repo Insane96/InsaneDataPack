@@ -18,6 +18,14 @@ Desert Pyramid
 	Removed Saddle, Gold and Diamond Horse Armor
 	Slightly reduced Iron and Diamond amount
 	Slightly Increased Cactus Armor Chance
+End City Treasure
+	Slightly increased Plushes chances
+	Removed Iron and Golden Horse Armor
+	Slightly reduced Diamond chance
+	Increased chance for higher level tools and weapons
+	Higher Levels Tools, Weapons and Armor are now damaged but repairing them costs less (-25%)
+	Added Axes with Damage higher level enchantments (Sharpness VII, ...)
+	Removed Looting Bow and Frosty Depth Boots
 	
 
 --------------------------------------------
