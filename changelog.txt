@@ -26,6 +26,14 @@ End City Treasure
 	Higher Levels Tools, Weapons and Armor are now damaged but repairing them costs less (-25%)
 	Added Axes with Damage higher level enchantments (Sharpness VII, ...)
 	Removed Looting Bow and Frosty Depth Boots
+Nether Bridge
+	Reduced Flint and Steel chance
+Jungle Temple
+	Removed Diamond Horse Armor
+	Removed Infinity+Mending Bow
+	
+RECIPES
+	Made Crossbow uncraftable, you need to obtain them from Pillagers or Outposts
 	
 
 --------------------------------------------
