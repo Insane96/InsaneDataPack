@@ -1,11 +1,10 @@
-
 {
 	"pools": [
 		{
 			"rolls":
 			{
-				"min": 3,
-				"max": 10
+				"min": 4,
+				"max": 8
 			},
 			"entries": [
 				{
@@ -157,58 +156,18 @@
 							}
 						}
 					]
-				},
-				{
-					"type": "item",
-					"name": "minecraft:leather_helmet",
-					"weight": 3,
-					"functions": [
-						{
-							"function": "enchant_randomly"
-						}
-					]
-				},
-				{
-					"type": "item",
-					"name": "minecraft:leather_chestplate",
-					"weight": 3,
-					"functions": [
-						{
-							"function": "enchant_randomly"
-						}
-					]
-				},
-				{
-					"type": "item",
-					"name": "minecraft:leather_leggings",
-					"weight": 3,
-					"functions": [
-						{
-							"function": "enchant_randomly"
-						}
-					]
-				},
-				{
-					"type": "item",
-					"name": "minecraft:leather_boots",
-					"weight": 3,
-					"functions": [
-						{
-							"function": "enchant_randomly"
-						}
-					]
 				}
 			]
 		},
 		{
 			"rolls": 1,
-			"conditions":[
-				 {
+			"conditions": [
+				{
 					"condition": "random_chance",
-					"chance": 0.5
-				 }
+					"chance": 0.4
+				}
 			],
-			"entries":[
+			"entries": [
 				{
 					"type": "item",
 					"name": "minecraft:leather_boots",
@@ -216,13 +175,13 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:3}],Unbreakable:1,display:{color:3355647}}"
+							"tag": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:3}],display:{color:3355647}}"
 						},
 						{
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"name": "random.net",
+									"name": "flippers.slowdown",
 									"attribute": "generic.movementSpeed",
 									"operation": "multiply_base",
 									"amount": -0.05,
@@ -232,11 +191,18 @@
 						},
 						{
 							"function": "set_name",
-							"name": 
+							"name":
 							{
 								"text": "Flippers",
 								"italic": false,
 								"bold": true
+							}
+						},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.5,
+								"max": 0.5
 							}
 						}
 					]
