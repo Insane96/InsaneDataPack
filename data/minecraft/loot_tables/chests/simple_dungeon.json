@@ -52,27 +52,7 @@
 				{
 					"type": "item",
 					"name": "minecraft:iron_horse_armor",
-					"weight": 5
-				},
-				{
-					"type": "item",
-					"name": "minecraft:golden_horse_armor",
-					"weight": 3
-				},
-				{
-					"type": "item",
-					"name": "minecraft:diamond_horse_armor",
-					"weight": 1
-				},
-				{
-					"type": "item",
-					"name": "minecraft:book",
-					"weight": 5,
-					"functions": [
-						{
-							"function": "enchant_randomly"
-						}
-					]
+					"weight": 4
 				}
 			]
 		},
@@ -196,7 +176,7 @@
 				{
 					"type": "item",
 					"name": "minecraft:player_head",
-					"weight": 3,
+					"weight": 5,
 					"functions": [
 						{
 							"function": "set_name",
@@ -340,7 +320,7 @@
 			"conditions": [
 				{
 					"condition": "random_chance",
-					"chance": 0.1
+					"chance": 0.30
 				}
 			],
 			"entries": [
@@ -351,7 +331,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{HideFlags:2,Enchantments:[{id:100,lvl:0}],display:{Lore:[\"\",\"§7When in main or off hand:\",\" §9+35% Speed\",\" §c-4 Armor\",\" §c-2 Armor Toughness\"]},RepairCost:40}"
+							"tag": "{HideFlags:1,Enchantments:[{id:0,lvl:0}],RepairCost:40}"
 						},
 						{
 							"function": "set_attributes",
@@ -360,28 +340,7 @@
 									"name": "random.org",
 									"attribute": "generic.movementSpeed",
 									"operation": "multiply_base",
-									"amount": 0.35,
-									"slot": "mainhand"
-								},
-								{
-									"name": "random.com",
-									"attribute": "generic.armor",
-									"operation": "addition",
-									"amount": -4,
-									"slot": "mainhand"
-								},
-								{
-									"name": "random.net",
-									"attribute": "generic.armorToughness",
-									"operation": "addition",
-									"amount": -2,
-									"slot": "mainhand"
-								},
-								{
-									"name": "random.org",
-									"attribute": "generic.movementSpeed",
-									"operation": "multiply_base",
-									"amount": 0.35,
+									"amount": 0.3,
 									"slot": "offhand"
 								},
 								{
@@ -395,7 +354,7 @@
 									"name": "random.net",
 									"attribute": "generic.armorToughness",
 									"operation": "addition",
-									"amount": -2,
+									"amount": -1,
 									"slot": "offhand"
 								}
 							]
@@ -419,7 +378,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{HideFlags:2,Enchantments:[{id:100,lvl:0}],display:{Lore:[\"\",\"§7When in main or off hand:\",\" §c-20% Speed\",\" §9+6 Armor\",\" §9+3 Armor Toughness\"]},RepairCost:40}"
+							"tag": "{HideFlags:1,Enchantments:[{id:0,lvl:0}],RepairCost:40}"
 						},
 						{
 							"function": "set_attributes",
@@ -429,41 +388,20 @@
 									"attribute": "generic.movementSpeed",
 									"operation": "multiply_base",
 									"amount": -0.2,
-									"slot": "mainhand"
-								},
-								{
-									"name": "random.com",
-									"attribute": "generic.armor",
-									"operation": "addition",
-									"amount": 6,
-									"slot": "mainhand"
-								},
-								{
-									"name": "random.net",
-									"attribute": "generic.armorToughness",
-									"operation": "addition",
-									"amount": 3,
-									"slot": "mainhand"
-								},
-								{
-									"name": "random.org",
-									"attribute": "generic.movementSpeed",
-									"operation": "multiply_base",
-									"amount": -0.2,
 									"slot": "offhand"
 								},
 								{
 									"name": "random.com",
 									"attribute": "generic.armor",
 									"operation": "addition",
-									"amount": 6,
+									"amount": 5,
 									"slot": "offhand"
 								},
 								{
 									"name": "random.net",
 									"attribute": "generic.armorToughness",
 									"operation": "addition",
-									"amount": 3,
+									"amount": 2,
 									"slot": "offhand"
 								}
 							]
@@ -472,7 +410,7 @@
 							"function": "set_name",
 							"name":
 							{
-								"text": "Defense Slimeball",
+								"text": "Defensive Slimeball",
 								"italic": false,
 								"bold": true,
 								"color": "gray"

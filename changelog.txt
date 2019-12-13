@@ -42,6 +42,10 @@ Shipwreck Treasure
 	Reduced Plushes chance
 Villager Houses
 	Added two new plushies!
+Simple Dungeon
+	Slightly Nerfed Defensive Slimeball and Speedy Flesh, heavily increased chance to obtain them, also no longer work in main hand
+	Increased Steve Head chance
+	Removed Diamond and Gold Horse Armor
 	
 RECIPES
 	Made Crossbow uncraftable, you need to obtain them from Pillagers or Outposts
