@@ -187,21 +187,6 @@
 							}
 						}
 					]
-				},
-				{
-					"type": "item",
-					"name": "minecraft:beetroot_seeds",
-					"functions": [
-						{
-							"function": "set_count",
-							"count":
-							{
-								"min": 2,
-								"max": 4
-							}
-						}
-					],
-					"weight": 5
 				}
 			]
 		},
