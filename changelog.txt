@@ -47,6 +47,12 @@ Simple Dungeon
 	Increased Steve Head chance
 	Removed Diamond and Gold Horse Armor
 	Removed Beetroot seeds
+Stronghold Corridor
+	Increased chance for Dragon Slayer, removed other enchantments and the curse.
 	
 RECIPES
 	Made Crossbow uncraftable, you need to obtain them from Pillagers or Outposts
+	
+TODO 
+Remove Crossbow recipe, will be obtainable only from pillagers
+Use functions to make head not lose their name when placed

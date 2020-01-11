@@ -232,7 +232,7 @@
 			"conditions":[
 				 {
 					"condition": "random_chance",
-					"chance": 0.20
+					"chance": 0.25
 				 }
 			],
 			"entries":[
@@ -243,23 +243,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5},{id:\"minecraft:unbreaking\",lvl:4}],HideFlags:2,display:{Lore:[\"\",\"§7When in main hand:\",\" §73 Attack Speed\",\" §74 Attack Damage\",\"  §d+3 (Sharpness)\",\" §9+10% Speed\"]},RepairCost:40}"
-						},
-						{
-							"function": "enchant_randomly",
-							"enchantments": [
-								"mending",
-								"looting",
-								"knockback",
-								"fire_aspect",
-								"sweeping"
-							]
-						},
-						{
-							"function": "enchant_randomly",
-							"enchantments": [
-								"vanishing_curse"
-							]
+							"tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5},{id:\"minecraft:unbreaking\",lvl:5}],HideFlags:2,RepairCost:40}"
 						},
 						{
 							"function": "set_attributes",
@@ -275,7 +259,7 @@
 									"name": "random.org",
 									"attribute": "generic.attackSpeed",
 									"operation": "addition",
-									"amount": -1.0,
+									"amount": -1.5,
 									"slot": "mainhand"
 								},
 								{
@@ -296,6 +280,13 @@
 								"bold": true,
 								"color": "dark_purple"
 							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{"text":""},
+								{"text":"Significantly faster than a normal Sword", "color":"green", "italic": false}
+							]
 						}
 					]
 				}
