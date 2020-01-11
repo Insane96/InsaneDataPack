@@ -54,6 +54,9 @@ Stronghold Crossing
 Stronghold Library
 	Can no longer generate more than 2 compasses
 	Generates at least 1 enchanted book, up to 2
+Underwater Ruins
+	Added Kelp and Sea Grass as crap
+Woodland Mansion
 	
 RECIPES
 	Made Crossbow uncraftable, you need to obtain them from Pillagers or Outposts
