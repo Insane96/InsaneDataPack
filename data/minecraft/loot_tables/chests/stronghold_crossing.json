@@ -232,58 +232,36 @@
 			"conditions":[
 				 {
 					"condition": "random_chance",
-					"chance": 0.20
+					"chance": 0.25
 				 }
 			],
 			"entries":[
 				{
 					"type": "item",
-					"name": "minecraft:wooden_sword",
+					"name": "minecraft:leather_boots",
 					"weight": 1,
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5},{id:\"minecraft:unbreaking\",lvl:4}],HideFlags:2,display:{Lore:[\"\",\"§7When in main hand:\",\" §73 Attack Speed\",\" §74 Attack Damage\",\"  §d+3 (Sharpness)\",\" §9+10% Speed\"]},RepairCost:40}"
-						},
-						{
-							"function": "enchant_randomly",
-							"enchantments": [
-								"mending",
-								"looting",
-								"knockback",
-								"fire_aspect",
-								"sweeping"
-							]
-						},
-						{
-							"function": "enchant_randomly",
-							"enchantments": [
-								"vanishing_curse"
-							]
+							"tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:unbreaking\",lvl:5},{id:\"minecraft:feather_falling\",lvl:5}],RepairCost:40}"
 						},
 						{
 							"function": "set_attributes",
 							"modifiers": [
+							
 								{
-									"name": "random.net",
+									"name": "base.armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"amount": 1,
+									"slot": "feet"
+								},
+								{
+									"name": "bonus.speed",
 									"attribute": "generic.movementSpeed",
 									"operation": "multiply_base",
 									"amount": 0.1,
-									"slot": "mainhand"
-								},
-								{
-									"name": "random.org",
-									"attribute": "generic.attackSpeed",
-									"operation": "addition",
-									"amount": -1.0,
-									"slot": "mainhand"
-								},
-								{
-									"name": "random.com",
-									"attribute": "generic.attackDamage",
-									"operation": "addition",
-									"amount": 4.0,
-									"slot": "mainhand"
+									"slot": "feet"
 								}
 							]
 						},
@@ -291,11 +269,18 @@
 							"function": "set_name",
 							"name":
 							{
-								"text": "Dragon Slayer",
+								"text": "Anti-Dragon Knockback",
 								"italic": false,
 								"bold": true,
 								"color": "dark_purple"
 							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{"text":""},
+								{"text":"Fall from about 100 blocks safely", "color":"green", "italic": false}
+							]
 						}
 					]
 				}
