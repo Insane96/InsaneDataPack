@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "stained_glass",
+  "pattern": [
+    "###",
+    "#c#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:stained_glass"
+    },
+	"c": {
+	  "item": "minecraft:ice"
+	}
+  },
+  "result": {
+    "item": "minecraft:glass",
+    "count": 8
+  }
+}

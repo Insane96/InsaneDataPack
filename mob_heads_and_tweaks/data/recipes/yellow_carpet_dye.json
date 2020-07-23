@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shapeless",
+  "group": "carpet_dye",
+  "ingredients": [
+    {
+      "tag": "minecraft:carpets"
+    },
+	{
+	  "item": "minecraft:dandelion_yellow"
+	}
+  ], 
+  "result": {
+    "item": "minecraft:yellow_carpet"
+
+  }
+}

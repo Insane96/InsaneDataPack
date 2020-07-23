@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shapeless",
+  "group": "wool",
+  "ingredients": [
+    {
+      "tag": "minecraft:wool"
+    },
+	{
+	  "item": "minecraft:cactus_green"
+	}
+  ], 
+  "result": {
+    "item": "minecraft:green_wool"
+
+  }
+}

@@ -1,0 +1,409 @@
+
+{
+	"pools": [
+		{
+			"rolls":
+			{
+				"min": 1,
+				"max": 3
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:ender_pearl",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:gold_ingot",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:saddle",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "minecraft:name_tag",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:golden_carrot",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_horse_armor",
+					"weight": 4
+				}
+			]
+		},
+		{
+			"rolls":
+			{
+				"min": 1,
+				"max": 4
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:enchanted_golden_apple",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:golden_apple",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "minecraft:bread",
+					"weight": 15
+				},
+				{
+					"type": "item",
+					"name": "minecraft:wheat",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:bucket",
+					"weight": 8
+				},
+				{
+					"type": "item",
+					"name": "minecraft:redstone",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:coal",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:melon_slice",
+					"functions": [
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 2,
+								"max": 4
+							}
+						}
+					],
+					"weight": 8
+				},
+				{
+					"type": "item",
+					"name": "minecraft:pumpkin",
+					"functions": [
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 2
+							}
+						}
+					],
+					"weight": 8
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_name",
+							"name":
+							{
+								"text": "Steve Head",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:bone",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:gunpowder",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:rotten_flesh",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:string",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:slime_ball",
+					"weight": 7,
+					"functions": [
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:arrow",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_bars",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "set_count",
+							"count":
+							{
+								"min": 4,
+								"max": 8
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.30
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:rotten_flesh",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{HideFlags:1,Enchantments:[{id:0,lvl:0}],RepairCost:40}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"name": "random.org",
+									"attribute": "generic.movementSpeed",
+									"operation": "multiply_base",
+									"amount": 0.3,
+									"slot": "offhand"
+								},
+								{
+									"name": "random.com",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"amount": -4,
+									"slot": "offhand"
+								},
+								{
+									"name": "random.net",
+									"attribute": "generic.armorToughness",
+									"operation": "addition",
+									"amount": -1,
+									"slot": "offhand"
+								}
+							]
+						},
+						{
+							"function": "set_name",
+							"name":
+							{
+								"text": "Speedy Flesh",
+								"italic": false,
+								"bold": true,
+								"color": "white"
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:slime_ball",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{HideFlags:1,Enchantments:[{id:0,lvl:0}],RepairCost:40}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"name": "random.org",
+									"attribute": "generic.movementSpeed",
+									"operation": "multiply_base",
+									"amount": -0.2,
+									"slot": "offhand"
+								},
+								{
+									"name": "random.com",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"amount": 5,
+									"slot": "offhand"
+								},
+								{
+									"name": "random.net",
+									"attribute": "generic.armorToughness",
+									"operation": "addition",
+									"amount": 2,
+									"slot": "offhand"
+								}
+							]
+						},
+						{
+							"function": "set_name",
+							"name":
+							{
+								"text": "Defensive Slimeball",
+								"italic": false,
+								"bold": true,
+								"color": "gray"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

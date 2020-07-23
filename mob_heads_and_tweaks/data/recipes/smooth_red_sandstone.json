@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "smooth_block",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_sandstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:smooth_red_sandstone",
+	"count": 2
+  }
+}

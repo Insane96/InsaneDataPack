@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "wool_8",
+  "pattern": [
+    "###",
+    "#c#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:wool"
+    },
+	"c": {
+	  "item": "minecraft:magenta_dye"
+	}
+  },
+  "result": {
+    "item": "minecraft:magenta_wool",
+    "count": 8
+  }
+}

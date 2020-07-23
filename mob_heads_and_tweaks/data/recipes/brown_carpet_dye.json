@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shapeless",
+  "group": "carpet_dye",
+  "ingredients": [
+    {
+      "tag": "minecraft:carpets"
+    },
+	{
+	  "item": "minecraft:cocoa_beans"
+	}
+  ], 
+  "result": {
+    "item": "minecraft:brown_carpet"
+
+  }
+}

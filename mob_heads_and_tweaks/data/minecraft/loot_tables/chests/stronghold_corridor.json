@@ -1,0 +1,326 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 7,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 9
+                            }
+                        }
+                    ],
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:coal",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 8
+                            }
+                        }
+                    ],
+                    "weight": 8
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bread",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_helmet",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 1,
+                                "max": 20
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_chestplate",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 1,
+                                "max": 20
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_leggings",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 1,
+                                "max": 20
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_boots",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 1,
+                                "max": 20
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_bricks",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:mossy_stone_bricks",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cracked_stone_bricks",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:iron_bars",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 7
+                            }
+                        }
+                    ],
+                    "weight": 5
+                }
+            ]
+        },
+		{
+			"rolls": 1,
+			"conditions":[
+				 {
+					"condition": "random_chance",
+					"chance": 0.25
+				 }
+			],
+			"entries":[
+				{
+					"type": "item",
+					"name": "minecraft:wooden_sword",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5},{id:\"minecraft:unbreaking\",lvl:5}],HideFlags:2,RepairCost:40}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"name": "random.net",
+									"attribute": "generic.movementSpeed",
+									"operation": "multiply_base",
+									"amount": 0.1,
+									"slot": "mainhand"
+								},
+								{
+									"name": "random.org",
+									"attribute": "generic.attackSpeed",
+									"operation": "addition",
+									"amount": -1.5,
+									"slot": "mainhand"
+								},
+								{
+									"name": "random.com",
+									"attribute": "generic.attackDamage",
+									"operation": "addition",
+									"amount": 4.0,
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "set_name",
+							"name":
+							{
+								"text": "Dragon Slayer",
+								"italic": false,
+								"bold": true,
+								"color": "dark_purple"
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{"text":""},
+								{"text":"Significantly faster than a normal Sword", "color":"green", "italic": false}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.20
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{SkullOwner:{Id:\"4ff43e29-2a39-4988-9f05-789854023408\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc3ZTNkMGY3ZGQ2NmEyNjFjZjk2MmFhMGMxMzMzYjQ5YmZjZjM2MzlmYWFlZWIxNzRkNTk1NzU3ZGY2MTEifX19\"}]}}}"
+						},
+						{
+							"function": "set_name",
+							"name":
+							{
+								"text": "End Portal Plush",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+    ]
+}

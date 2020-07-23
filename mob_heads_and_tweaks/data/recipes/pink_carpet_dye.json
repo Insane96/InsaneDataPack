@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shapeless",
+  "group": "carpet_dye",
+  "ingredients": [
+    {
+      "tag": "minecraft:carpets"
+    },
+	{
+	  "item": "minecraft:pink_dye"
+	}
+  ], 
+  "result": {
+    "item": "minecraft:pink_carpet"
+
+  }
+}

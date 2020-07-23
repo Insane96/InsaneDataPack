@@ -1,0 +1,210 @@
+
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls":
+			{
+				"min": 3.0,
+				"max": 8.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 1.0,
+								"max": 5.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:iron_nugget"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:fern"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:large_fern"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 1.0,
+								"max": 7.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:potato"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 1.0,
+								"max": 7.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:sweet_berries"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 1.0,
+								"max": 4.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:bread"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 1.0,
+								"max": 5.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:pumpkin_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pumpkin_pie"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 1.0,
+								"max": 4.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 1.0,
+								"max": 5.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:spruce_sapling"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spruce_sign"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 1.0,
+								"max": 5.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:spruce_log"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions":[
+				 {
+					"condition": "random_chance",
+					"chance": 0.4
+				 }
+			],
+			"entries": [
+				{
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+						{
+                            "function": "set_nbt",
+                            "tag": "{SkullOwner:{Id:\"1ede93aa-121b-4c19-979a-d05c710ece9b\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzkxNzc0ZThlNDNjZjUzNWUzMDk3MTZhMDNiNGE0YTgxMTA4NzkzZGU3NjhlYmQzZjEyMjRlNjgwMjFmZTk3ZSJ9fX0=\"}]}}}"
+                        },
+						{
+							"function": "set_name",
+							"name": 
+							{
+								"text": "Villager Plush",
+								"italic": false
+							}
+						}
+                    ]
+				},
+				{
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+						{
+                            "function": "set_nbt",
+                            "tag": "{SkullOwner:{Id:\"8b3b499c-b16b-4479-85ac-e0a4a1639752\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRkMGY1NDhmMDhlZjE1MTRmYTU1MjVjNjNkYWQ2NDk3MWUyZDFkY2E1ZjhjMTcyMmJjMzExZjIxYTYxMTQzOCJ9fX0=\"}]}}}"
+                        },
+						{
+							"function": "set_name",
+							"name": 
+							{
+								"text": "Goat Plush",
+								"italic": false
+							}
+						}
+                    ]
+				}
+			]
+		}
+	]
+}
