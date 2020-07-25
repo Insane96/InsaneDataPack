@@ -27,6 +27,34 @@ Modules that change e.g. Loot Tables but have no functions running
 * Dispensers can be crafted from droppers
 * You can break down ladders to sticks
 
-## Better Structure Loot
+### **Better Structure Loot**
 
-TODO
+### Abandoned Mineshaft
+
+In Abandoned Mineshafts you can now find many precious items, some food and tools left off the Miners, the items used by them to build the mineshaft and a few leftover enchanted books
+
+![Abandoned Mineshaft](https://i.imgur.com/TJtR875.png)![Abandoned Mineshaft](https://i.imgur.com/NsuqyEZ.png)
+
+Also a Spoopy Alex Head
+
+![Alex Head](https://i.imgur.com/6q8Amz6.png)
+
+And as special item an Advanced Golden Pickaxe with high Efficiency and huge Unbreaking
+
+![Advanced Golden Pickaxe](https://i.imgur.com/xnPjCDu.png)
+
+### Buried Treasure
+
+Buried Treasures have just some small changes: lowered precious loot amount and removed iron sword and leather chestplate.
+
+![](https://i.imgur.com/8TvFytr.png)
+
+But also a chance to find a Creeper Plushie
+
+![](https://i.imgur.com/ceuMuB2.png)
+
+And also a high chance to find a Trident (unenchanted, low enchanted or high enchanted)
+
+![](https://i.imgur.com/jcUMC2P.png)
+
+### 
