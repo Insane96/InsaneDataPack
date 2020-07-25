@@ -2,7 +2,8 @@
 
 ## 2.0.0 - The Modules Update
 
-* The project has been split into modules. Just check README.md for all the features.
+* Removed Mob Heads, VanillaTweaks does already a really good job for them so I recommend their DataPack
+* The project has been split into modules. Just check README.md for all the other features.
 
 LOOT
 Abandoned Mineshaft
