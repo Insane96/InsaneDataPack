@@ -7,12 +7,12 @@
             },
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:experience_bottle",
                     "weight": 5,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
                                 "max": 1
@@ -21,12 +21,12 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:iron_ingot",
                     "weight": 15,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 2,
                                 "max": 6
@@ -35,12 +35,12 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:gold_ingot",
                     "weight": 15,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 2,
                                 "max": 6
@@ -49,12 +49,12 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:diamond",
                     "weight": 5,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
                                 "max": 2
@@ -63,12 +63,12 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:emerald",
                     "weight": 5,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
                                 "max": 3
@@ -77,17 +77,17 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:name_tag",
                     "weight": 5
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:leather",
                     "weight": 5,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 2,
                                 "max": 6
@@ -96,27 +96,27 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:enchanted_golden_apple",
                     "weight": 1
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "weight": 2
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:iron_horse_armor",
                     "weight": 5
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:book",
                     "weight": 10,
                     "functions": [
                         {
-                            "function": "enchant_with_levels",
+                            "function": "minecraft:enchant_with_levels",
                             "treasure": true,
                             "levels": {
                                 "min": 1,
@@ -131,11 +131,11 @@
 			"rolls": 2,
 			"entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:bone",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 4,
                                 "max": 6
@@ -145,11 +145,11 @@
                     "weight": 1
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:spider_eye",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
                                 "max": 3
@@ -159,11 +159,11 @@
                     "weight": 1
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:rotten_flesh",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 3,
                                 "max": 7
@@ -173,12 +173,12 @@
                     "weight": 1
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:gunpowder",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 4,
                                 "max": 6
@@ -192,12 +192,12 @@
             "rolls": 2,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:sand",
                     "weight": 2,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 4,
                                 "max": 8
@@ -206,12 +206,12 @@
                     ]
                 },
 				{
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:cactus",
                     "weight": 2,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 2,
                                 "max": 6
@@ -220,12 +220,12 @@
                     ]
                 },
 				{
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:dead_bush",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 2,
                                 "max": 4
@@ -239,67 +239,67 @@
 			"rolls": 1,
 			"conditions":[
 				{
-					"condition": "random_chance",
+					"condition": "minecraft:random_chance",
 					"chance": 0.333
 				}
 			],
 			"entries":[
 				{
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:leather_helmet",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "minecraft:set_nbt",
                             "tag": "{RepairCost:40,display:{color:1878784},Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:unbreaking\",lvl:10},{id:\"minecraft:thorns\",lvl:10}]}"
                         },
 						{
-							"function": "set_name",
+							"function": "minecraft:set_name",
 							"name": {"text": "Cactus Helmet", "color": "dark_green", "italic": false, "bold": true}
 						}
                     ]
 				},
 				{
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:leather_chestplate",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "minecraft:set_nbt",
                             "tag": "{RepairCost:40,display:{color:1878784},Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:unbreaking\",lvl:10},{id:\"minecraft:thorns\",lvl:10}]}"
                         },
 						{
-							"function": "set_name",
+							"function": "minecraft:set_name",
 							"name": {"text": "Cactus Chestplate", "color": "dark_green", "italic": false, "bold": true}
 						}
                     ]
 				},
 				{
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:leather_leggings",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "minecraft:set_nbt",
                             "tag": "{RepairCost:40,display:{color:1878784},Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:unbreaking\",lvl:10},{id:\"minecraft:thorns\",lvl:10}]}"
                         },
 						{
-							"function": "set_name",
+							"function": "minecraft:set_name",
 							"name": {"text": "Cactus Leggings", "color": "dark_green", "italic": false, "bold": true}
 						}
                     ]
 				},
 				{
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:leather_boots",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_nbt",
+                            "function": "minecraft:set_nbt",
                             "tag": "{RepairCost:40,display:{color:1878784},Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:unbreaking\",lvl:10},{id:\"minecraft:thorns\",lvl:10}]}"
                         },
 						{
-							"function": "set_name",
+							"function": "minecraft:set_name",
 							"name": {"text": "Cactus Boots", "color": "dark_green", "italic": false, "bold": true}
 						}
                     ]

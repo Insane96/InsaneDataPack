@@ -33,15 +33,15 @@ Modules that change e.g. Loot Tables but have no functions running
 
 In Abandoned Mineshafts you can now find many precious items, some food and tools left off the Miners, the items used by them to build the mineshaft and a few leftover enchanted books
 
-![Abandoned Mineshaft](https://i.imgur.com/TJtR875.png)![Abandoned Mineshaft](https://i.imgur.com/NsuqyEZ.png)
+![](https://i.imgur.com/TJtR875.png)![](https://i.imgur.com/NsuqyEZ.png)
 
 Also a Spoopy Alex Head
 
-![Alex Head](https://i.imgur.com/6q8Amz6.png)
+![](https://i.imgur.com/6q8Amz6.png)
 
 And as special item an Advanced Golden Pickaxe with high Efficiency and huge Unbreaking
 
-![Advanced Golden Pickaxe](https://i.imgur.com/xnPjCDu.png)
+![](https://i.imgur.com/xnPjCDu.png)
 
 ### Buried Treasure
 
@@ -57,4 +57,12 @@ And also a high chance to find a Trident (unenchanted, low enchanted or high enc
 
 ![](https://i.imgur.com/jcUMC2P.png)
 
-### 
+### Desert Pyramid
+
+Desert Pyramids loot is now much more coherent with Deserts. The original loot hasn't changed much but you can now find Desert related items
+
+![](https://i.imgur.com/F8LhWhc.png)
+
+Also a special armor can be found here, the Cactus armor, a Green Dyed Leather Armor that has high Thorns and Durability
+
+![](https://i.imgur.com/ENyhFKF.png)
