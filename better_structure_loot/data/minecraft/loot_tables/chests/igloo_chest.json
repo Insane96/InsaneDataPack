@@ -7,12 +7,12 @@
             },
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:apple",
                     "weight": 15,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
                                 "max": 3
@@ -21,12 +21,12 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:coal",
                     "weight": 15,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
                                 "max": 2
@@ -35,12 +35,12 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:gold_nugget",
                     "weight": 10,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
                                 "max": 3
@@ -49,12 +49,12 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:rotten_flesh",
                     "weight": 10,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
                                 "max": 3
@@ -63,17 +63,17 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:emerald",
                     "weight": 2
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:wheat",
                     "weight": 10,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 2,
                                 "max": 3
@@ -82,12 +82,12 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:glowstone_dust",
                     "weight": 5,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 3,
                                 "max": 7
@@ -96,12 +96,12 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:redstone",
                     "weight": 4,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 3,
                                 "max": 7
@@ -115,12 +115,12 @@
 			"rolls": 2,
 			"entries": [
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:snowball",
 					"weight": 1,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
 								"min": 8,
 								"max": 16
@@ -133,19 +133,19 @@
         {
             "conditions": [
                 {
-                    "condition": "random_chance",
+                    "condition": "minecraft:random_chance",
                     "chance": 1
                 }
             ],
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         }
                     ]
@@ -155,23 +155,23 @@
         {
             "conditions": [
                 {
-                    "condition": "random_chance",
+                    "condition": "minecraft:random_chance",
                     "chance": 0.8
                 }
             ],
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:book",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "enchant_randomly",
+                            "function": "minecraft:enchant_randomly",
                             "enchantments": [
                                 "frost_walker"
                             ]

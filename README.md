@@ -80,3 +80,9 @@ Going to some plushies
 And ending with higher level equipment, you can find things like Looting 4 and Protection 5. Those are highly damaged and require many levels to repair.
 
 ![](https://i.imgur.com/dn2qnyS.png) ![](https://i.imgur.com/rQriKCg.png) ![](https://i.imgur.com/aRq6x7i.png)
+
+### Igloo
+
+Igloo chests have just one addition. An high chance to contain a Frost Walker book
+
+### 
