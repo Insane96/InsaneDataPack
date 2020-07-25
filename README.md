@@ -19,6 +19,7 @@ Modules that change e.g. Loot Tables but have no functions running
 * Redstone compontents now need Redstone
     * Levers, Pressure Plates and Buttons now all require redstone to be crafted
 * Beetroot soups can be made with only 3 beetroots instead of 6
+* Dark prismarine is now crafted from Prismarine and not from Shards
 * Clay balls can be made from Clay Block
 * Minecarts with things in them can be directly crafted
 * Sticks and Chests can be mass-crafted from logs
