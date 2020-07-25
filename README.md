@@ -85,4 +85,12 @@ And ending with higher level equipment, you can find things like Looting 4 and P
 
 Igloo chests have just one addition. An high chance to contain a Frost Walker book
 
-### 
+### Jungle Temple
+
+Jungle Temples have 100% more vines and precious stuff
+
+![](https://i.imgur.com/zmjZXuo.png)
+
+But also Parrot Plushies!
+
+![](https://i.imgur.com/fSH0UYm.png)
