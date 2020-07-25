@@ -9,12 +9,12 @@
 			},
 			"entries": [
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:coal",
 					"weight": 10,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 10,
@@ -24,12 +24,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:iron_ingot",
 					"weight": 10,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 2,
@@ -39,12 +39,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:gold_ingot",
 					"weight": 5,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 1,
@@ -54,11 +54,11 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:redstone",
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 4,
@@ -69,11 +69,11 @@
 					"weight": 5
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:diamond",
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 1,
@@ -84,11 +84,11 @@
 					"weight": 2
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:emerald",
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 1,
@@ -99,12 +99,12 @@
 					"weight": 3
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:lapis_lazuli",
 					"weight": 5,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 4,
@@ -119,12 +119,12 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:melon_slice",
 					"weight": 5,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 2,
@@ -134,12 +134,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:apple",
 					"weight": 2,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 2,
@@ -149,12 +149,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:cooked_beef",
 					"weight": 4,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 2,
@@ -164,7 +164,7 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:golden_apple",
 					"weight": 2
 				}
@@ -175,31 +175,23 @@
 			"entries": [
 
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:player_head",
 					"weight": 2,
 					"functions": [
 						{
-							"function": "set_nbt",
-							"tag": "{SkullOwner:{Id:\"d46798ef-edd2-4b75-95fc-c1760972a079\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNiMDk4OTY3MzQwZGFhYzUyOTI5M2MyNGUwNDkxMDUwOWIyMDhlN2I5NDU2M2MzZWYzMWRlYzdiMzc1MCJ9fX0=\"}]}}}"
-						},
-						{
-							"function": "set_name",
-							"name":
-							{
-								"text": "Alex Head",
-								"italic": false
-							}
+							"function": "minecraft:set_nbt",
+							"tag": "{SkullOwner:{Id:[I;-731408145,-304985227,-1778597514,158507129],Name:\"Alex\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNiMDk4OTY3MzQwZGFhYzUyOTI5M2MyNGUwNDkxMDUwOWIyMDhlN2I5NDU2M2MzZWYzMWRlYzdiMzc1MCJ9fX0=\"}]}}}"
 						}
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:book",
 					"weight": 2,
 					"functions": [
 						{
-							"function": "enchant_randomly",
+							"function": "minecraft:enchant_randomly",
 							"enchantments": [
 								"efficiency",
 								"unbreaking"
@@ -208,12 +200,25 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"fortune"
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:iron_pickaxe",
 					"weight": 5,
 					"functions": [
 						{
-							"function": "set_damage",
+							"function": "minecraft:set_damage",
 							"damage":
 							{
 								"min": 0.80,
@@ -221,7 +226,7 @@
 							}
 						},
 						{
-							"function": "enchant_with_levels",
+							"function": "minecraft:enchant_with_levels",
 							"treasure": true,
 							"levels":
 							{
@@ -232,30 +237,30 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:golden_pickaxe",
 					"weight": 2,
 					"functions": [
 						{
-							"function": "enchant_randomly",
+							"function": "minecraft:enchant_randomly",
 							"enchantments": [
 								"efficiency"
 							]
 						},
 						{
-							"function": "enchant_randomly",
+							"function": "minecraft:enchant_randomly",
 							"enchantments": [
 								"unbreaking"
 							]
 						},
 						{
-							"function": "enchant_randomly",
+							"function": "minecraft:enchant_randomly",
 							"enchantments": [
 								"fortune"
 							]
 						},
 						{
-							"function": "set_damage",
+							"function": "minecraft:set_damage",
 							"damage":
 							{
 								"min": 0.75,
@@ -263,7 +268,7 @@
 							}
 						},
 						{
-							"function": "set_lore",
+							"function": "minecraft:set_lore",
 							"lore": [
 								{"text": ""},
 								{"text":"You should definitely use this on Coal", "color":"dark_gray", "italic": false}
@@ -272,25 +277,16 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:diamond_pickaxe",
 					"weight": 2,
 					"functions": [
 						{
-							"function": "set_damage",
+							"function": "minecraft:set_damage",
 							"damage":
 							{
-								"min": 0.15,
-								"max": 0.45
-							}
-						},
-						{
-							"function": "enchant_with_levels",
-							"treasure": true,
-							"levels":
-							{
-								"min": 1,
-								"max": 5
+								"min": 0.10,
+								"max": 0.20
 							}
 						}
 					]
@@ -301,11 +297,11 @@
 			"rolls": 2,
 			"entries": [
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:rail",
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 6,
@@ -316,11 +312,11 @@
 					"weight": 15
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:powered_rail",
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 4,
@@ -331,11 +327,11 @@
 					"weight": 5
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:torch",
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 8,
@@ -346,11 +342,11 @@
 					"weight": 15
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:oak_planks",
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 8,
@@ -361,11 +357,11 @@
 					"weight": 10
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:oak_fence",
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 6,
@@ -381,22 +377,22 @@
 			"rolls": 1,
 			"conditions": [
 				{
-					"condition": "random_chance",
+					"condition": "minecraft:random_chance",
 					"chance": 0.1
 				}
 			],
 			"entries": [
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:golden_pickaxe",
 					"weight": 1,
 					"functions": [
 						{
-							"function": "set_nbt",
+							"function": "minecraft:set_nbt",
 							"tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:efficiency\",lvl:7},{id:\"minecraft:unbreaking\",lvl:50}]}"
 						},
 						{
-							"function": "set_name",
+							"function": "minecraft:set_name",
 							"name":
 							{
 								"text": "Advanced Golden Pickaxe",
@@ -406,7 +402,7 @@
 							}
 						},
 						{
-							"function": "set_lore",
+							"function": "minecraft:set_lore",
 							"lore": [
 								{"text":"Efficency VII", "color":"gray", "italic": false},
 								{"text":"Unbreaking L", "color":"gray", "italic": false}

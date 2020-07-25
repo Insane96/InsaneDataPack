@@ -11,9 +11,10 @@ Abandoned Mineshaft
 	Diamond is now rarer
 	Removed Saddle, Horse Armor and Name Tag, Minecraft needs more uniquely-obtainable items
 	Reduced food chance
-	Enchanted book no longer has Fortune
+	Enchanted book with fortune is now rarer
 	Iron Pickaxe is now enchanted randomly between 5 and 10 levels instead of having a random level of Efficiency
 	Gold Pickaxe now has a random level of Fortune (also a free advice added)
+	Diamond Pickaxe is no longer enchanted and has less durability
 	Removed Activator and Detector Rails also increased Powered and Normal Rails amount
 	Advanced Golden Pickaxe now has Efficiency 7 instead of 10, making it less likely to break unwanted blocks. Also fixed Lore for newer versions
 Buried Treasure
