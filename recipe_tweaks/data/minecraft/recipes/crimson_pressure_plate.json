@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "wooden_pressure_plate",
   "pattern": [
     " r",
     "##"
@@ -9,10 +10,10 @@
 		"item": "minecraft:redstone"
 	},
     "#": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:crimson_planks"
     }
   },
   "result": {
-    "item": "minecraft:heavy_weighted_pressure_plate"
+    "item": "minecraft:crimson_pressure_plate"
   }
 }
