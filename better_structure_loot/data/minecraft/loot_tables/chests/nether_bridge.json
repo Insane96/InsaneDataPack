@@ -9,12 +9,12 @@
 			},
 			"entries": [
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:gold_ingot",
 					"weight": 15,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 1,
@@ -24,12 +24,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:iron_ingot",
 					"weight": 5,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 1,
@@ -39,12 +39,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:blaze_powder",
 					"weight": 7,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 1,
@@ -54,12 +54,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:quartz",
 					"weight": 2,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 4,
@@ -69,12 +69,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:obsidian",
 					"weight": 2,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 2,
@@ -84,12 +84,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:glowstone_dust",
 					"weight": 6,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 4,
@@ -99,87 +99,87 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:flint_and_steel",
 					"weight": 3
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:splash_potion",
 					"weight": 1,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count": 1
 						},
 						{
-							"function": "set_nbt",
+							"function": "minecraft:set_nbt",
 							"tag": "{Potion:\"minecraft:swiftness\"}"
 						}
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:splash_potion",
 					"weight": 1,
 					"functions": [
 						{
-							"function": "set_nbt",
+							"function": "minecraft:set_nbt",
 							"tag": "{Potion:\"minecraft:strength\"}"
 						}
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:splash_potion",
 					"weight": 1,
 					"functions": [
 						{
-							"function": "set_nbt",
+							"function": "minecraft:set_nbt",
 							"tag": "{Potion:\"minecraft:fire_resistance\"}"
 						}
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:splash_potion",
 					"weight": 1,
 					"functions": [
 						{
-							"function": "set_nbt",
+							"function": "minecraft:set_nbt",
 							"tag": "{Potion:\"minecraft:night_vision\"}"
 						}
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:splash_potion",
 					"weight": 1,
 					"functions": [
 						{
-							"function": "set_nbt",
+							"function": "minecraft:set_nbt",
 							"tag": "{Potion:\"minecraft:healing\"}"
 						}
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:splash_potion",
 					"weight": 1,
 					"functions": [
 						{
-							"function": "set_nbt",
+							"function": "minecraft:set_nbt",
 							"tag": "{Potion:\"minecraft:poison\"}"
 						}
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:diamond",
 					"weight": 1,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 1,
@@ -198,12 +198,12 @@
 			},
 			"entries": [
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:nether_wart",
 					"weight": 2,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 3,
@@ -213,12 +213,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:fire_charge",
 					"weight": 5,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 6,
@@ -228,12 +228,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:netherrack",
 					"weight": 5,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 8,
@@ -243,12 +243,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:soul_sand",
 					"weight": 5,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 6,
@@ -258,12 +258,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:nether_brick",
 					"weight": 4,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 10,
@@ -273,12 +273,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:bone",
 					"weight": 4,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 5,
@@ -293,13 +293,13 @@
 			"rolls": 1,
 			"conditions": [
 				{
-					"condition": "random_chance",
+					"condition": "minecraft:random_chance",
 					"chance": 0.075
 				}
 			],
 			"entries": [
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:wither_skeleton_skull",
 					"weight": 2
 				}

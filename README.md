@@ -95,4 +95,14 @@ But also Parrot Plushies!
 
 ![](https://i.imgur.com/fSH0UYm.png)
 
-###
+### Nether Fortress
+
+Nether fortresses have slightly better loot, from potions to quartz
+
+![](https://i.imgur.com/nJeMqJc.png)
+
+To Wither Skeleton Skulls (pretty rare)
+
+![](https://i.imgur.com/6yWM5NM.png)
+
+### 
