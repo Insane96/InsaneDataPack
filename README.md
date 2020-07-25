@@ -17,7 +17,7 @@ Modules that change e.g. Loot Tables but have no functions running
 ### **Recipe Tweaks**
 * Crossbows can no longer be crafted, obtaining them requires Pillagers
 * Redstone compontents now need Redstone
-    * Levers, Pressure Plates and Buttons now all require redstone to be crafted
+    * Levers, Pressure Plates and Buttons now all require redstone to be crafted, all can be made in 2x2 grid
 * Beetroot soups can be made with only 3 beetroots instead of 6
 * Dark prismarine is now crafted from Prismarine and not from Shards
 * Clay balls can be made from Clay Block
