@@ -66,3 +66,17 @@ Desert Pyramids loot is now much more coherent with Deserts. The original loot h
 Also a special armor can be found here, the Cactus armor, a Green Dyed Leather Armor that has high Thorns and Durability
 
 ![](https://i.imgur.com/ENyhFKF.png)
+
+### End Cities
+
+End Cities have the best loot of the game, starting with high level enchanted diamond and iron equipment
+
+![](https://i.imgur.com/nfWNjyB.png)
+
+Going to some plushies
+
+![](https://i.imgur.com/lfu5jXe.png)
+
+And ending with higher level equipment, you can find things like Looting 4 and Protection 5. Those are highly damaged and require many levels to repair.
+
+![](https://i.imgur.com/dn2qnyS.png) ![](https://i.imgur.com/rQriKCg.png) ![](https://i.imgur.com/aRq6x7i.png)
