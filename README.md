@@ -110,3 +110,19 @@ To Wither Skeleton Skulls (pretty rare)
 No more Leather Armor and Bamboo in the supply chest but high chance to find Flippers
 
 ![](https://i.imgur.com/MYDxoso.png)
+
+As for treasure chests there are slightly increased precious loot and two plushies
+
+![](https://i.imgur.com/ELepLIl.png)
+
+### Dungeons
+
+No more saddles and horse armors (I want them to be a rarer item so I left them only in some chests), but you'll find much more precious loot
+
+![](https://i.imgur.com/gsu3YBU.png)
+
+And also a chance to find two special items, the Defensive Slimeball and the Speedy Bone
+
+![](https://i.imgur.com/Cfdfkc3.png) ![](https://i.imgur.com/6943XpD.png)
+
+### 
