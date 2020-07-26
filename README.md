@@ -125,4 +125,32 @@ And also a chance to find two special items, the Defensive Slimeball and the Spe
 
 ![](https://i.imgur.com/Cfdfkc3.png) ![](https://i.imgur.com/6943XpD.png)
 
-### 
+Also Spooky Steve head
+
+![](https://i.imgur.com/UhIzDv4.png)
+
+### Stronghold
+
+Stronghold loot is ... useless, other than Ender Pearls. Stronghold corridors and crossings' chests have more precious loot and armor / tools are enchanted. You can find armor in Stronghold corridors and tools in crossings.
+
+![](https://i.imgur.com/4L1NiSV.png) ![](https://i.imgur.com/Yns1J5m.png)
+
+You can also find a "Dragon Slayer" in the Corridors, a sword with pretty high attack speed
+
+![](https://i.imgur.com/M36Rsx3.png)
+
+And a "I believe I can fly" in Crossings
+
+![](https://i.imgur.com/5Hj9I3w.png)
+
+Also not-so-rare chance to find a plush!
+
+![](https://i.imgur.com/566EbIG.png)
+
+In stronghold libraries instead loot has been redistributed better. You will always find at least one enchanted book.
+
+![](https://i.imgur.com/d0QGdw9.png)
+
+And also another plush!
+
+![](https://i.imgur.com/5TcDd6w.png)
