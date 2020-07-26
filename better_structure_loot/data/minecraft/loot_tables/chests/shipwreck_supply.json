@@ -8,12 +8,12 @@
 			},
 			"entries": [
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:paper",
 					"weight": 8,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 1,
@@ -23,12 +23,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:potato",
 					"weight": 7,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 2,
@@ -38,12 +38,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:poisonous_potato",
 					"weight": 7,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 2,
@@ -53,12 +53,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:carrot",
 					"weight": 7,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 4,
@@ -68,12 +68,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:wheat",
 					"weight": 7,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 8,
@@ -83,12 +83,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:coal",
 					"weight": 6,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 2,
@@ -98,12 +98,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:rotten_flesh",
 					"weight": 5,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 5,
@@ -113,12 +113,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:pumpkin",
 					"weight": 2,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 1,
@@ -128,12 +128,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:gunpowder",
 					"weight": 3,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 1,
@@ -143,12 +143,12 @@
 					]
 				},
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:tnt",
 					"weight": 1,
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"min": 1,
@@ -223,34 +223,34 @@
 			"rolls": 1,
 			"conditions": [
 				{
-					"condition": "random_chance",
-					"chance": 0.4
+					"condition": "minecraft:random_chance",
+					"chance": 0.6
 				}
 			],
 			"entries": [
 				{
-					"type": "item",
+					"type": "minecraft:item",
 					"name": "minecraft:leather_boots",
 					"weight": 1,
 					"functions": [
 						{
-							"function": "set_nbt",
+							"function": "minecraft:set_nbt",
 							"tag": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:3}],display:{color:3355647}}"
 						},
 						{
-							"function": "set_attributes",
+							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"name": "flippers.slowdown",
-									"attribute": "generic.movementSpeed",
+									"name": "flippers_speed_malus",
+									"attribute": "generic.movement_speed",
 									"operation": "multiply_base",
-									"amount": -0.05,
+									"amount": -0.1,
 									"slot": "feet"
 								}
 							]
 						},
 						{
-							"function": "set_name",
+							"function": "minecraft:set_name",
 							"name":
 							{
 								"text": "Flippers",
@@ -259,7 +259,12 @@
 							}
 						},
 						{
-							"function": "set_damage",
+							"function": "minecraft:set_lore",
+							"lore":
+							[{"text":"Walking on land with those is not easy", "italic": false, "color": "red"}]
+						},
+						{
+							"function": "minecraft:set_damage",
 							"damage": {
 								"min": 0.5,
 								"max": 0.5

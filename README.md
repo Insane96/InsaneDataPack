@@ -105,4 +105,8 @@ To Wither Skeleton Skulls (pretty rare)
 
 ![](https://i.imgur.com/6yWM5NM.png)
 
-### 
+### Shipwrecks
+
+No more Leather Armor and Bamboo in the supply chest but high chance to find Flippers
+
+![](https://i.imgur.com/MYDxoso.png)
