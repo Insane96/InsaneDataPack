@@ -39,9 +39,9 @@ Also a Spoopy Alex Head
 
 ![](https://i.imgur.com/6q8Amz6.png)
 
-And as special item an Advanced Golden Pickaxe with high Efficiency and huge Unbreaking
+And as special item a Stone Eater with high Efficiency and huge Unbreaking
 
-![](https://i.imgur.com/xnPjCDu.png)
+![](https://i.imgur.com/WQVGoiF.png)
 
 ### Buried Treasure
 

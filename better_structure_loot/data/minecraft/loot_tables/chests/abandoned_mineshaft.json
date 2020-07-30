@@ -263,16 +263,9 @@
 							"function": "minecraft:set_damage",
 							"damage":
 							{
-								"min": 0.75,
+								"min": 0.8,
 								"max": 0.95
 							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								{"text": ""},
-								{"text":"You should definitely use this on Coal", "color":"dark_gray", "italic": false}
-							]
 						}
 					]
 				},
@@ -389,13 +382,13 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:efficiency\",lvl:7},{id:\"minecraft:unbreaking\",lvl:50}]}"
+							"tag": "{HideFlags:1,RepairCost:29,Enchantments:[{id:\"minecraft:efficiency\",lvl:6},{id:\"minecraft:unbreaking\",lvl:50}]}"
 						},
 						{
 							"function": "minecraft:set_name",
 							"name":
 							{
-								"text": "Advanced Golden Pickaxe",
+								"text": "Stone Eater",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -404,7 +397,7 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
-								{"text":"Efficency VII", "color":"gray", "italic": false},
+								{"text":"Efficency VI", "color":"gray", "italic": false},
 								{"text":"Unbreaking L", "color":"gray", "italic": false}
 							]
 						}
