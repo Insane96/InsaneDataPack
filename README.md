@@ -154,3 +154,13 @@ In stronghold libraries instead loot has been redistributed better. You will alw
 And also another plush!
 
 ![](https://i.imgur.com/5TcDd6w.png)
+
+### Underwater Ruins
+
+Added some crap stuff (seaweed and kelp)
+
+![](https://i.imgur.com/MNGBqzE.png)
+
+### Other Structures
+
+Basically no changes, but if I get any idea on what to do with Woodland Mansions I will definitely change them since other than totems, they're pretty useless. Maybe I will make a Datapack with them.
