@@ -2,13 +2,20 @@
 
 Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. From Mob Heads to Better Loot Tables from Structures to *maybe* even some effective functionalities.
 
+## Index
+* [Functional modules](#functional-modules)
+    * ???
+* ["Passive" Modules](#passive-modules)
+    * Recipe Tweaks
+    * Better Structure Loot
+* [How to Install](#how-to-install)
+
 ## **Functional Modules**
 Modules that use Functions to do stuff
 
 ### **???**
 
 ???
-
 
 
 ## **"Passive" Modules** 
@@ -164,3 +171,8 @@ Added some crap stuff (seaweed and kelp)
 ### Other Structures
 
 Basically no changes, but if I get any idea on what to do with Woodland Mansions I will definitely change them since other than totems, they're pretty useless. Maybe I will make a Datapack with them.
+
+
+### How to Install
+
+Just drop the .zip in the datapacks folder of your world or drop them into the Datapacks screen on world creation.
