@@ -1,0 +1,8 @@
+{
+    "values": [
+        "bedrockbreaker:init",
+        "bedrockbreaker:half_second",
+        "bedrockbreaker:second",
+        "bedrockbreaker:tick"
+    ]
+}
