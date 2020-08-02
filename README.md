@@ -4,21 +4,34 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 
 ## Index
 * [Functional modules](#functional-modules)
-    * ???
-* ["Passive" Modules](#passive-modules)
-    * Recipe Tweaks
-    * Better Structure Loot
+    * [Bedrock Breaker](#bedrock-breaker)
+    * [XP Holder](#xp-holder)
+* [Passive Modules](#passive-modules)
+    * [Recipe Tweaks](#recipe-tweaks)
+    * [Better Structure Loot](#better-structure-loot)
 * [How to Install](#how-to-install)
 
 ## **Functional Modules**
 Modules that use Functions to do stuff
 
-### **???**
+### **Bedrock Breaker**
 
-???
+Let you break Bedrock by sacrificing a Netherite Pickaxe and some Redstone
+
+Drop an undamaged Netherite Pickaxe in an Hopper filled with 2 Redstone Blocks, 1 Obsidian, 1 Comparator, 1 Obsidian and 2 Redstone Blocks
+![](https://i.imgur.com/4YJ1FD6.gif)
+
+After 10 minutes all the blocks (and Bedrock) in a 3 by 2 by 3 area will be destroyed
+![](https://i.imgur.com/khtqGvW.gif)
 
 
-## **"Passive" Modules** 
+### **XP Holder**
+
+Top and bottom of a chest to store your XP
+
+TODO
+
+## **Passive Modules** 
 Modules that change e.g. Loot Tables but have no functions running
 
 ### **Recipe Tweaks**
@@ -180,4 +193,4 @@ Basically no changes, but if I get any idea on what to do with Woodland Mansions
 
 ### **How to Install**
 
-Just drop the .zip in the datapacks folder of your world or drop them into the Datapacks screen on world creation.
+Just drop the .zip in the `datapacks` folder of your world or drop them into the Data Packs screen on world creation.
