@@ -168,11 +168,16 @@ Added some crap stuff (seaweed and kelp)
 
 ![](https://i.imgur.com/MNGBqzE.png)
 
+### Villages
+
+Villages house chests can have two plushes: Villager and Goat
+
+![](https://i.imgur.com/5BsjPv5.png)
+
 ### Other Structures
 
 Basically no changes, but if I get any idea on what to do with Woodland Mansions I will definitely change them since other than totems, they're pretty useless. Maybe I will make a Datapack with them.
 
-
-### How to Install
+### **How to Install**
 
 Just drop the .zip in the datapacks folder of your world or drop them into the Datapacks screen on world creation.
