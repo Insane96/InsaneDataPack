@@ -19,10 +19,12 @@ Modules that use Functions to do stuff
 Let you break Bedrock by sacrificing a Netherite Pickaxe and some Redstone
 
 Drop an undamaged Netherite Pickaxe in an Hopper filled with 2 Redstone Blocks, 1 Obsidian, 1 Comparator, 1 Obsidian and 2 Redstone Blocks
-![](https://i.imgur.com/4YJ1FD6.gif)
+
+![](/gifs/bedrock_breaker_craft.gif)
 
 After 10 minutes all the blocks (and Bedrock) in a 3 by 2 by 3 area will be destroyed
-![](https://i.imgur.com/khtqGvW.gif)
+
+![](/gifs/bedrock_breaker_finish.gif)
 
 
 ### **XP Holder**
@@ -31,15 +33,15 @@ A chest to store your precious XP
 
 Place the following items in the center of a chest and drop a diamond on top of it
 
-![](https://i.imgur.com/OTV1dwR.gif)
+![](/gifs/xp_holder_craft.gif)
 
 Stand on top of the chest to deposit XP and below to withdraw XP
 
-![](https://i.imgur.com/raLwDaR.gif) ![](https://i.imgur.com/4Yx3xYf.gif)
+![](/gifs/xp_holder_deposit.gif) ![](/gifs/xp_holder_withdraw.gif)
 
 Destroying the chest will give back all the stored XP and every item used to craft it but the experience bottle
 
-![](https://i.imgur.com/sR9tCsk.gif)
+![](/gifs/xp_holder_destroy.gif)
 
 
 ### **Item Manipulator**
