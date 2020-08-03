@@ -1,0 +1,1 @@
+tellraw @a [{"text":"[InsaneDataPack] ","bold":true,"color":"gold"},{"text":"Test Loaded","bold":true,"color":"dark_green"}]

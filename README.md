@@ -27,9 +27,30 @@ After 10 minutes all the blocks (and Bedrock) in a 3 by 2 by 3 area will be dest
 
 ### **XP Holder**
 
-Top and bottom of a chest to store your XP
+A chest to store your precious XP
+
+Place the following items in the center of a chest and drop a diamond on top of it
+
+![](https://i.imgur.com/OTV1dwR.gif)
+
+Stand on top of the chest to deposit XP and below to withdraw XP
+
+![](https://i.imgur.com/raLwDaR.gif) ![](https://i.imgur.com/4Yx3xYf.gif)
+
+Destroying the chest will give back all the stored XP and every item used to craft it but the experience bottle
+
+![](https://i.imgur.com/sR9tCsk.gif)
+
+
+### **Item Manipulator**
 
 TODO
+
+
+### **Depth Mobs**
+
+TODO
+
 
 ## **Passive Modules** 
 Modules that change e.g. Loot Tables but have no functions running

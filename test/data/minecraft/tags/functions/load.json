@@ -1,0 +1,8 @@
+{
+    "values": [
+        "test:init",
+        "test:half_second",
+        "test:second",
+        "test:tick"
+    ]
+}
