@@ -1,6 +1,6 @@
 # **InsaneDataPack**
 
-Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. From Mob Heads to Better Loot Tables from Structures to *maybe* even some effective functionalities.
+Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. From some Recipes Tweaks to Better Structure Loot to some effective functionalities like Bedrock Breaker or XP Holder.
 
 ## Index
 * [Functional modules](#functional-modules)
