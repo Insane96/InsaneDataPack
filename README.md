@@ -6,6 +6,7 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 * [Functional modules](#functional-modules)
     * [Bedrock Breaker](#bedrock-breaker)
     * [XP Holder](#xp-holder)
+    * [Item Manipulator](#item-manipulator)
 * [Passive Modules](#passive-modules)
     * [Recipe Tweaks](#recipe-tweaks)
     * [Better Structure Loot](#better-structure-loot)
@@ -46,8 +47,10 @@ Destroying the chest will give back all the stored XP and every item used to cra
 
 ### **Item Manipulator**
 
-TODO
+A book that lets you remove gravity from items, make them unable to despawn, be picked up and also center them to the block.
 
+Demonstration video: 
+[![Item Manipulator Demonstration video](https://img.youtube.com/vi/RpxdTXhd6Bw/mqdefault.jpg)](http://www.youtube.com/watch?v=RpxdTXhd6Bw "Item Manipulator Demonstration video")
 
 ### **Depth Mobs**
 
