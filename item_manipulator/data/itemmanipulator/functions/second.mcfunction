@@ -34,4 +34,4 @@ scoreboard players set @a[scores={im_trigger=1..}] im_trigger 0
 scoreboard players enable @a[nbt={Inventory:[{id:"minecraft:written_book",tag:{title:"Item Manipulator"}}]}] im_trigger
 
 #run this function every second
-schedule function test:second 1s
+schedule function itemmanipulator:second 1s
