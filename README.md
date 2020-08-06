@@ -4,6 +4,7 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 
 ## Index
 * [Functional modules](#functional-modules)
+    * [Soul Forge](#soul-forge)
     * [Bedrock Breaker](#bedrock-breaker)
     * [XP Holder](#xp-holder)
     * [Item Manipulator](#item-manipulator)
@@ -14,6 +15,19 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 
 ## **Functional Modules**
 Modules that use Functions to do stuff
+
+### **Soul Forge**
+
+TODO
+
+
+### **Item Manipulator**
+
+A book that lets you remove gravity from items, make them unable to despawn, be picked up and also center them to the block.
+
+Demonstration video: 
+[![Item Manipulator Demonstration video](https://img.youtube.com/vi/RpxdTXhd6Bw/mqdefault.jpg)](http://www.youtube.com/watch?v=RpxdTXhd6Bw "Item Manipulator Demonstration video")
+
 
 ### **Bedrock Breaker**
 
@@ -44,13 +58,6 @@ Destroying the chest will give back all the stored XP and every item used to cra
 
 ![](/gifs/xp_holder_destroy.gif)
 
-
-### **Item Manipulator**
-
-A book that lets you remove gravity from items, make them unable to despawn, be picked up and also center them to the block.
-
-Demonstration video: 
-[![Item Manipulator Demonstration video](https://img.youtube.com/vi/RpxdTXhd6Bw/mqdefault.jpg)](http://www.youtube.com/watch?v=RpxdTXhd6Bw "Item Manipulator Demonstration video")
 
 ### **Depth Mobs**
 
