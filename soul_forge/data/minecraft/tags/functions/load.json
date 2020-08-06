@@ -1,0 +1,7 @@
+{
+    "values": [
+        "soulforge:init",
+        "soulforge:half_second",
+        "soulforge:tick"
+    ]
+}
