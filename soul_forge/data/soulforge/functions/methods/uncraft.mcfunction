@@ -25,5 +25,8 @@ scoreboard players set @e[tag=soul_forge] count 0
 #check for blast furnace
 execute as @e[tag=soul_forge] at @s positioned ^ ^1 ^1 unless block ~ ~-1 ~-1 minecraft:blast_furnace unless block ~ ~-1 ~1 minecraft:blast_furnace unless block ~-1 ~-1 ~ minecraft:blast_furnace unless block ~1 ~-1 ~ minecraft:blast_furnace run tag @s add soul_forge_uncraft
 
+#check for soulfire
+execute as @e[tag=soul_forge] at @s positioned ^ ^1 ^1 unless block ~ ~ ~ minecraft:soul_fire run tag @s add soul_forge_uncraft
+
 execute as @e[tag=soul_forge_uncraft] at @s run playsound minecraft:block.respawn_anchor.deplete block @a[distance=..15] ~ ~ ~ 0.75 0.5
 execute as @e[tag=soul_forge_uncraft] at @s run kill @s

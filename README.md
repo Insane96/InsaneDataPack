@@ -18,8 +18,19 @@ Modules that use Functions to do stuff
 
 ### **Soul Forge**
 
-TODO
+The Power of Soul Fire can increase the yield from Ingot Ores.  
+Build this 3 high structure:
 
+![](https://i.imgur.com/8tknVQW.png?1)
+![](https://i.imgur.com/sqpUst6.png?1)![](https://i.imgur.com/5iWvw2z.png?1)![](https://i.imgur.com/pEloL02.png?1)
+
+Drop a Diamond in the Soul Fire, be careful, a lightning bolt might strike. You'll see bigger smoke particles (Campfire particles) coming from the fire
+
+![](/gifs/soul_forge_craft.gif)
+
+Now when smelting Iron and Gold ore in the Blast Furnace you'll get one more ingot in front of the Soul Forge
+
+![](/gifs/soul_forge_work.gif)
 
 ### **Item Manipulator**
 
