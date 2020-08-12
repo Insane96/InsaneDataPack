@@ -18,7 +18,7 @@ Modules that use Functions to do stuff
 
 ### **Soul Forge**
 
-The Power of Soul Fire can increase the yield from Ingot Ores.  
+Only the ancient livings of the Nether knew that power of Soul Fire can increase the yield from Ingot Ores.  
 Build this 3 high structure:
 
 ![](https://i.imgur.com/8tknVQW.png?1)
