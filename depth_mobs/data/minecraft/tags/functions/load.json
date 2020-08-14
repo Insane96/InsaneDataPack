@@ -1,0 +1,8 @@
+{
+    "values": [
+        "depthmobs:init",
+        "depthmobs:second",
+        "depthmobs:tick",
+        "global:random/functions/private/setup"
+    ]
+}

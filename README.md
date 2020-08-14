@@ -4,10 +4,11 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 
 ## Index
 * [Functional modules](#functional-modules)
+    * [Depth Mobs](#depth-mobs)
     * [Soul Forge](#soul-forge)
+    * [Item Manipulator](#item-manipulator)
     * [Bedrock Breaker](#bedrock-breaker)
     * [XP Holder](#xp-holder)
-    * [Item Manipulator](#item-manipulator)
 * [Passive Modules](#passive-modules)
     * [Recipe Tweaks](#recipe-tweaks)
     * [Better Structure Loot](#better-structure-loot)
@@ -16,10 +17,51 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 ## **Functional Modules**
 Modules that use Functions to do stuff
 
+### **Depth Mobs**
+Inspired by (Vazkii's mod) Quark's Depth Mobs feature and ported from an old project called TesseractFour.  
+New varieties of mobs will spawn underground, from Gas Creepers to Undead Miners.  
+Every mob that has a head has a small chance to drop it.
+
+* Dweller  
+Zombie Miner that has more health and full knockback resistance. Has twice the health of a normal Zombie
+
+![](https://i.imgur.com/PpulpZ4.png)
+
+* Zombie Summoner  
+A simple Zombie variant that spawns more zombies nearby everytime you hit him. Has twice the health of a normal Zombie
+
+![](https://i.imgur.com/0WK2nfA.png)
+
+* Strex  
+Skeleton Miner that drops lots of Coal on death
+
+![](https://i.imgur.com/s0JDNVY.png)
+
+* Repellent Skeleton  
+Skeleton variant with a pretty Punchy Bow
+
+![](https://i.imgur.com/CpZbkpC.png)
+
+* Skeleton Depth Mage  
+Skeleton Mage which "casts spells" when he hits you with his magical Stick
+
+![](https://i.imgur.com/as7Crhs.png)
+
+* Gas Creepers  
+A wide variety of Gas Creepers exist which explode faster than a normal Creeper but will deal no damage on explosion and spawn a Gas Cloud with negative effects: Blindness, Immobilization (Strong Slowness), Weakness, Mining Fatigue, Hunger and Slowness
+
+![](https://i.imgur.com/8B8yP2r.png)
+
+* Hypercreeper  
+A faster than normal creeper but much easier to kill
+
+* Death Creeper  
+A creeper that takes more time to explode than a normal Creeper but has a much powerful explosion
+
 ### **Soul Forge**
 
 Only the ancient livings of the Nether knew that power of Soul Fire can increase the yield from Ingot Ores.  
-Build this 3 high structure:
+Build this 3 high structure (it's Fire in the center not a Soul Campfire):
 
 ![](https://i.imgur.com/8tknVQW.png?1)
 ![](https://i.imgur.com/sqpUst6.png?1)![](https://i.imgur.com/5iWvw2z.png?1)![](https://i.imgur.com/pEloL02.png?1)
