@@ -121,16 +121,16 @@ TODO
 Modules that change e.g. Loot Tables but have no functions running
 
 ### **Recipe Tweaks**
-* Crossbows can no longer be crafted, obtaining them requires Pillagers
+* Crossbows can no longer be crafted, obtaining them requires Pillagers / Piglins
 * Redstone compontents now need Redstone
     * Levers, Pressure Plates and Buttons now all require redstone to be crafted, all can be made in 2x2 grid
 * Beetroot soups can be made with only 3 beetroots instead of 6
+* Sandstone and Red Sandstone recipe now outputs 2 instead of 1
 * Dark prismarine is now crafted from Prismarine and not from Shards
 * Clay balls can be made from Clay Block
 * Minecarts with things in them can be directly crafted
 * Sticks and Chests can be mass-crafted from logs
 * Sticks can be obtained from saplings
-* Dispensers can be crafted from droppers
 * You can break down ladders to sticks
 
 ### **Better Structure Loot**
