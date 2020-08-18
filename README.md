@@ -18,7 +18,7 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 Modules that use Functions to do stuff
 
 ### **Depth Mobs**
-Inspired by (Vazkii's mod) Quark's Depth Mobs feature and ported from an old project called TesseractFour.  
+Inspired by (Vazkii's mod) Quark's Depth Mobs feature and ported from TesseractFour (an old DataPack project by ChocoParrot).  
 New varieties of mobs will spawn underground, from Gas Creepers to Undead Miners.  
 Every mob that has a head has a small chance to drop it.
 
