@@ -496,8 +496,7 @@
 							{
 								"text": "Lucky Pickaxe",
 								"color": "green",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -525,8 +524,7 @@
 							{
 								"text": "Sonic Pickaxe",
 								"color": "yellow",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -554,8 +552,7 @@
 							{
 								"text": "Sonic Axe",
 								"color": "yellow",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -583,8 +580,7 @@
 							{
 								"text": "Sonic Shovel",
 								"color": "yellow",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -612,8 +608,7 @@
 							{
 								"text": "Sharpy Sword",
 								"color": "light_purple",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -641,8 +636,7 @@
 							{
 								"text": "Undead Slayer Sword",
 								"color": "gray",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -670,8 +664,7 @@
 							{
 								"text": "Arthropods Hater Sword",
 								"color": "white",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -699,8 +692,7 @@
 							{
 								"text": "Stand-Back Sword",
 								"color": "blue",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -728,8 +720,7 @@
 							{
 								"text": "Burner Sword",
 								"color": "dark_red",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -757,8 +748,7 @@
 							{
 								"text": "Looter Sword",
 								"color": "dark_green",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -786,8 +776,7 @@
 							{
 								"text": "Sharpy Axe",
 								"color": "light_purple",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -815,8 +804,7 @@
 							{
 								"text": "Undead Slayer Axe",
 								"color": "gray",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -844,8 +832,7 @@
 							{
 								"text": "Arthropods Hater Axe",
 								"color": "white",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -884,8 +871,7 @@
 							{
 								"text": "Powerful Bow",
 								"color": "light_purple",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -913,8 +899,7 @@
 							{
 								"text": "Punchy Bow",
 								"color": "blue",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -942,8 +927,7 @@
 							{
 								"text": "Diamond Shears",
 								"color": "aqua",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -971,8 +955,7 @@
 							{
 								"text": "Baiting Fishing Rod",
 								"color": "gray",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1000,8 +983,7 @@
 							{
 								"text": "Lucky Fishing Rod",
 								"color": "green",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1040,8 +1022,7 @@
 							{
 								"text": "Protective Helmet",
 								"color": "dark_aqua",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1069,8 +1050,7 @@
 							{
 								"text": "FireProof Helmet",
 								"color": "red",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1098,8 +1078,7 @@
 							{
 								"text": "Anti-Creeper Helmet",
 								"color": "dark_green",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1127,8 +1106,7 @@
 							{
 								"text": "PP Helmet",
 								"color": "gray",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1156,8 +1134,7 @@
 							{
 								"text": "Protective Chestplate",
 								"color": "dark_aqua",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1185,8 +1162,7 @@
 							{
 								"text": "FireProof Chestplate",
 								"color": "red",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1214,8 +1190,7 @@
 							{
 								"text": "Anti-Creeper Chestplate",
 								"color": "dark_green",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1243,8 +1218,7 @@
 							{
 								"text": "PP Chestplate",
 								"color": "white",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1272,8 +1246,7 @@
 							{
 								"text": "Spiky Chestplate",
 								"color": "gray",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1301,8 +1274,7 @@
 							{
 								"text": "Protective Leggings",
 								"color": "dark_aqua",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1330,8 +1302,7 @@
 							{
 								"text": "FireProof Leggings",
 								"color": "red",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1359,8 +1330,7 @@
 							{
 								"text": "Anti-Creeper Leggings",
 								"color": "dark_green",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1388,8 +1358,7 @@
 							{
 								"text": "PP Leggings",
 								"color": "gray",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1417,8 +1386,7 @@
 							{
 								"text": "Protective Boots",
 								"color": "dark_aqua",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1446,8 +1414,7 @@
 							{
 								"text": "FireProof Boots",
 								"color": "red",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1475,8 +1442,7 @@
 							{
 								"text": "Anti-Creeper Boots",
 								"color": "dark_green",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1504,8 +1470,7 @@
 							{
 								"text": "PP Boots",
 								"color": "gray",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1533,8 +1498,7 @@
 							{
 								"text": "Feather Boots",
 								"color": "white",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
@@ -1562,8 +1526,7 @@
 							{
 								"text": "Frosty Boots",
 								"color": "dark_aqua",
-								"italic": false,
-								"bold": true
+								"italic": false
 							}
 						},
 						{
