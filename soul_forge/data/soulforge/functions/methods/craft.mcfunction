@@ -1,5 +1,7 @@
 #check if a soul forge already exists nearby
 execute as @e[tag=soul_forge_craft] at @s positioned ~ ~-1 ~ if entity @e[tag=soul_forge,distance=..1.5] run summon item ~ ~2 ~ {Motion:[0.0,0.4,0.2],Item:{id:"minecraft:diamond",Count:1b}}
+execute as @e[tag=soul_forge_craft] at @s positioned ~ ~-1 ~ if entity @e[tag=soul_forge,distance=..1.5] run title @a[distance=..6] actionbar {"text":"There's already a Soul Forge there"}
+execute as @e[tag=soul_forge_craft] at @s positioned ~ ~-1 ~ if entity @e[tag=soul_forge,distance=..1.5] run playsound minecraft:entity.iron_golem.repair block @a[distance=..6] ~ ~ ~ 1.0 0.5
 execute as @e[tag=soul_forge_craft] at @s positioned ~ ~-1 ~ if entity @e[tag=soul_forge,distance=..1.5] run kill @s
 
 #check for iron blocks
