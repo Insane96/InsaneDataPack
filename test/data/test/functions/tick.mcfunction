@@ -30,6 +30,14 @@ execute as @e[tag=creeper_release,nbt={ignited:1b},scores={test=29}] at @s run s
 # tp @e[tag=creeper_release] ~ -64 ~
 tag @e[tag=creeper_release,nbt={ignited:1b},scores={test=29}] remove creeper_release
 
+execute as @e[tag=tnt_throw] at @s facing entity @p eyes positioned 0.0 0 0.0 run summon area_effect_cloud ^ ^ ^3 {Tags:["direction"]}
+execute as @e[tag=tnt_throw] at @s run summon arrow ~ ~1 ~ {pickup:2b,player:0b,damage:2.0d,crit:1b,PierceLevel:2b,Tags:["projectile"]}
+data modify entity @e[type=minecraft:arrow,tag=projectile,limit=1] Motion set from entity @e[type=area_effect_cloud,tag=direction,limit=1] Pos
+data modify entity @e[type=minecraft:arrow,tag=projectile,limit=1] UUID set from entity @e[type=area_effect_cloud,tag=direction,limit=1] UUID
+tag @e[tag=projectile] remove projectile
+kill @e[tag=direction]
+tag @e[tag=tnt_throw] remove tnt_throw
+
 # item merger 
 
 #run this function every tick
