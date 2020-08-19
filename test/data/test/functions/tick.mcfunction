@@ -16,7 +16,7 @@ execute as @e[tag=creeper_release] at @s run particle minecraft:angry_villager ~
 execute as @e[tag=creeper_release] at @s if entity @p[distance=..5.5] run data modify entity @s ignited set value 1
 execute as @e[tag=creeper_release] at @s if entity @p[distance=..5.5] run data modify entity @s ExplosionRadius set value 0
 execute as @e[tag=creeper_release,nbt={ignited:1b}] at @s run scoreboard players add @s test 1
-execute as @e[tag=creeper_release,nbt={ignited:1b},scores={test=29}] at @s
+#execute as @e[tag=creeper_release,nbt={ignited:1b},scores={test=29}] at @s
 
 execute as @e[tag=creeper_release,nbt={ignited:1b},scores={test=29}] at @s run summon creeper ~ ~ ~ {ignited:1,ExplosionRadius:2,Motion:[0.0,0.75,0.75]}
 execute as @e[tag=creeper_release,nbt={ignited:1b},scores={test=29}] at @s run summon creeper ~ ~ ~ {ignited:1,ExplosionRadius:2,Motion:[0.75,0.75,0.0]}
@@ -37,6 +37,22 @@ data modify entity @e[type=minecraft:arrow,tag=projectile,limit=1] UUID set from
 tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
 tag @e[tag=tnt_throw] remove tnt_throw
+
+
+
+scoreboard players set @e[tag=void_miner] random 100
+execute as @e[tag=void_miner] run function global:random/functions/generate
+
+#use loot tables and /loot, f*ck this shit
+execute as @e[tag=void_miner,scores={random_data=0..14}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:coal",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=15..41}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:iron_nugget",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=42..63}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:gold_nugget",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=64..74}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:redstone",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=75..82}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:lapis_lazuli",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=83..84}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:diamond",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=85..86}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:emerald",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=87..98}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:quartz",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=99..99}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:netherite_scrap",Count:1b}}
 
 # item merger 
 
