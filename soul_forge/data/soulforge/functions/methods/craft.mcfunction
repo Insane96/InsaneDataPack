@@ -1,3 +1,7 @@
+#check if a soul forge already exists nearby
+execute as @e[tag=soul_forge_craft] at @s positioned ~ ~-1 ~ if entity @e[tag=soul_forge,distance=..1.5] run summon item ~ ~2 ~ {Motion:[0.0,0.4,0.2],Item:{id:"minecraft:diamond",Count:1b}}
+execute as @e[tag=soul_forge_craft] at @s positioned ~ ~-1 ~ if entity @e[tag=soul_forge,distance=..1.5] run kill @s
+
 #check for iron blocks
 execute as @e[tag=soul_forge_craft] at @s store result score @s count run fill ~-1 ~ ~-1 ~1 ~1 ~1 barrier replace iron_block
 execute as @e[tag=soul_forge_craft] at @s run fill ~-1 ~ ~-1 ~1 ~1 ~1 iron_block replace barrier

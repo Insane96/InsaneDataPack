@@ -29,4 +29,5 @@ execute as @e[tag=soul_forge] at @s positioned ^ ^1 ^1 unless block ~ ~-1 ~-1 mi
 execute as @e[tag=soul_forge] at @s positioned ^ ^1 ^1 unless block ~ ~ ~ minecraft:soul_fire run tag @s add soul_forge_uncraft
 
 execute as @e[tag=soul_forge_uncraft] at @s run playsound minecraft:block.respawn_anchor.deplete block @a[distance=..15] ~ ~ ~ 0.75 0.5
+execute as @e[tag=soul_forge_uncraft] at @s positioned ^ ^ ^1 align xyz run summon item ~.5 ~2.5 ~.5 {Motion:[0.0,0.4,0.2],Item:{id:"minecraft:diamond",Count:1b}}
 execute as @e[tag=soul_forge_uncraft] at @s run kill @s
