@@ -1,0 +1,15 @@
+{
+    "values":[
+        "minecraft:cave_spider",
+        "minecraft:creeper",
+        "minecraft:enderman",
+        "minecraft:endermite",
+        "minecraft:silverfish",
+        "minecraft:skeleton",
+        "minecraft:slime",
+        "minecraft:spider",
+        "minecraft:witch",
+        "minecraft:zombie",
+        "minecraft:zombie_villager"
+    ]
+}
