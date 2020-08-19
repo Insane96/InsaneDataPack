@@ -74,6 +74,8 @@ Now when smelting Iron and Gold ore in the Blast Furnace you'll get one more ing
 
 ![](/gifs/soul_forge_work.gif)
 
+Breaking any block of the structure will break the machine and drop the Diamond
+
 ### **Item Manipulator**
 
 A book that lets you remove gravity from items, make them unable to despawn, be picked up and also center them to the block.
