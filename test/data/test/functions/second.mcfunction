@@ -26,14 +26,14 @@ scoreboard players set @e[tag=void_miner] random 100
 execute as @e[tag=void_miner] run function global:random/functions/generate
 
 execute as @e[tag=void_miner,scores={random_data=0..14}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:coal",Count:1b}}
-execute as @e[tag=void_miner,scores={random_data=15..41}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:coal",Count:1b}}
-execute as @e[tag=void_miner,scores={random_data=42..63}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:iron_nugget",Count:1b}}
-execute as @e[tag=void_miner,scores={random_data=64..74}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:gold_nugget",Count:1b}}
-execute as @e[tag=void_miner,scores={random_data=75..85}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:redstone",Count:1b}}
-execute as @e[tag=void_miner,scores={random_data=86..88}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:lapis_lazuli",Count:1b}}
-execute as @e[tag=void_miner,scores={random_data=89..90}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:diamond",Count:1b}}
-execute as @e[tag=void_miner,scores={random_data=91..98}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:emerald",Count:1b}}
-execute as @e[tag=void_miner,scores={random_data=99..99}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:quartz",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=15..41}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:iron_nugget",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=42..63}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:gold_nugget",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=64..74}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:redstone",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=75..85}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:lapis_lazuli",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=86..88}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:diamond",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=89..90}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:emerald",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=91..98}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:quartz",Count:1b}}
+execute as @e[tag=void_miner,scores={random_data=99..99}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:netherite_scrap",Count:1b}}
 
 
 #run this function every second
