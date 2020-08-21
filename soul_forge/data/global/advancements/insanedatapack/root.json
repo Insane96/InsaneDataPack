@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "InsaneDataPack",
+        "description": "",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:'{\"text\":\"Insane96MCP\"}'},SkullOwner:\"Insane96MCP\"}"
+        },
+        "background": "minecraft:textures/block/light_gray_concrete.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

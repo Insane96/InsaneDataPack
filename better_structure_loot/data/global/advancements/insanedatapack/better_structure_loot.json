@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Better Structure Loot",
+        "description": "Bring better Loot to Structures in the world, from Plushes to Tridents in Treasure Chests to some magical items in Dungeons",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;1734741816,-891731851,-1081180174,1110916691],Name:\"Creeper Plush\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg2MjViYzk5NzEyNTZhYjNiMWRlNWU3YjMzMzhkNWRlYzI2ODNiZmVmMDMxMDc5MzQ5NWQyN2FhMzhhYTQwOCJ9fX0=\"}]}}}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:insanedatapack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

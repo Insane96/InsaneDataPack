@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Item Manipulator",
+        "description": "A simple book that let you float items, center them and do some other things",
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:insanedatapack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

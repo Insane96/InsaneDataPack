@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Soul Forge",
+        "description": "Double Ingots when smelting Iron and Gold",
+        "icon": {
+            "item": "minecraft:blast_furnace"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:insanedatapack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

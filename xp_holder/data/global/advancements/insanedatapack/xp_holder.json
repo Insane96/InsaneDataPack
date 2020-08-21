@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "XP Holder",
+        "description": "Store you XP safely",
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:insanedatapack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

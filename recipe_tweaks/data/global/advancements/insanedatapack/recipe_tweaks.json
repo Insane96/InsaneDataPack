@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Recipe Tweaks",
+        "description": "Some Tweaks to recipes from more Sandstone to mass craft of chests and sticks",
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:insanedatapack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

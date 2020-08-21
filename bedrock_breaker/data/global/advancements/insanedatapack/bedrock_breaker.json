@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Bedrock Breaker",
+        "description": "Some Redstone and a Netherite Pickaxe might break down that nasty Bedrock",
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:insanedatapack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
