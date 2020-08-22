@@ -3,6 +3,6 @@
         "depthmobs:init",
         "depthmobs:second",
         "depthmobs:tick",
-        "global:random/functions/private/setup"
+        "global:random/private/setup"
     ]
 }
