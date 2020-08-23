@@ -6,10 +6,10 @@ execute as @e[tag=dm_creeper_gas] at @s run particle minecraft:large_smoke ~ ~0.
 
 effect give @e[tag=dm_creeper_blindness] blindness 20 0
 effect give @e[tag=dm_creeper_immobilize] slowness 10 5
-effect give @e[tag=dm_creeper_mining_fatigue] mining_fatigue 60 0
-effect give @e[tag=dm_creeper_weakness] weakness 60 0
-effect give @e[tag=dm_creeper_hunger] hunger 60 2
-effect give @e[tag=dm_creeper_slowness] slowness 60 0
+effect give @e[tag=dm_creeper_mining_fatigue] mining_fatigue 45 0
+effect give @e[tag=dm_creeper_weakness] weakness 45 0
+effect give @e[tag=dm_creeper_hunger] hunger 45 2
+effect give @e[tag=dm_creeper_slowness] slowness 45 0
 
 #run this function every second
 schedule function depthmobs:second 1s
