@@ -54,6 +54,11 @@ execute as @e[tag=void_miner,scores={random_data=85..86}] at @s run summon item 
 execute as @e[tag=void_miner,scores={random_data=87..98}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:quartz",Count:1b}}
 execute as @e[tag=void_miner,scores={random_data=99..99}] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:netherite_scrap",Count:1b}}
 
+#execute as @e[scores={rightClick=1}] at @s run function test:right_click
+
+execute as @e[tag=granade] at @s positioned ~ ~1 ~ if entity @e[distance=..1.25,type=!item,tag=!granade] run data modify entity @s Fuse set value 0
+execute as @e[tag=granade,nbt={Motion:[0.0,0.0,0.0]}] at @s run data modify entity @s Fuse set value 0
+
 # item merger 
 
 #run this function every tick

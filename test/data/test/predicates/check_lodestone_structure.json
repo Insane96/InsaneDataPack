@@ -1,0 +1,244 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetY": -1,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "block": "minecraft:gold_block"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetY": -1,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "block": "minecraft:gold_block"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetY": -1,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "block": "minecraft:gold_block"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetY": -1,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "block": "minecraft:gold_block"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "block": "minecraft:cobblestone"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetY": -1,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "block": "minecraft:cobblestone"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetY": -1,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "block": "minecraft:cobblestone"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "block": "minecraft:cobblestone"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "block": "minecraft:cobblestone"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 0,
+        "offsetY": 0,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "block": "minecraft:lodestone"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetY": 0,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "block": "minecraft:cobblestone"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetY": 0,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "block": "minecraft:cobblestone"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetY": 0,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "block": "minecraft:cobblestone"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetY": 0,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "block": "minecraft:cobblestone"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetY": 0,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetY": 0,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 0,
+        "offsetY": 0,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 0,
+        "offsetY": 0,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetY": 1,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "block": "minecraft:crying_obsidian"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetY": 1,
+        "offsetZ": 0,
+        "predicate": {
+            "block": {
+                "block": "minecraft:crying_obsidian"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 0,
+        "offsetY": 1,
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "block": "minecraft:crying_obsidian"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 0,
+        "offsetY": 1,
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "block": "minecraft:crying_obsidian"
+            }
+        }
+    }
+]
