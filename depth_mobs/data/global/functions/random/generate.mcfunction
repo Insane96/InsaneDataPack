@@ -1,3 +1,5 @@
+# Datapack by u/elyisgreat
+
 execute if entity @s[tag=!rng_src,scores={random=1..}] run scoreboard players set @s random_limit 2147483647
 execute if entity @s[tag=!rng_src,scores={random=1..}] run scoreboard players operation @s random_limit %= @s random
 execute if entity @s[tag=!rng_src,scores={random=1..}] run scoreboard players add @s random_limit 1
