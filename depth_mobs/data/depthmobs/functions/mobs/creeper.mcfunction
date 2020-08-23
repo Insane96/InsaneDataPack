@@ -22,4 +22,4 @@ data modify entity @s[scores={random_data=15..29},y=60,dy=-20] {} merge value {C
 #execute @e[type=Pig,r=5,tag=T4_DM_jp] ~ ~ ~ tp @e[score_T4_math_output_min=94,type=Creeper,r=5] ~ ~-1000 ~
 
 tag @s add dm_processed
-#scoreboard players reset @s random_data
+scoreboard players reset @s random_data
