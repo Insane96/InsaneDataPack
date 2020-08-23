@@ -1,5 +1,3 @@
-# Datapack by u/elyisgreat
-
 scoreboard players set @s random_data 0
 execute if predicate global:random/bit run scoreboard players add @s random_data 1
 execute if predicate global:random/bit run scoreboard players add @s random_data 2

@@ -11,6 +11,5 @@ effect give @e[tag=dm_creeper_weakness] weakness 60 0
 effect give @e[tag=dm_creeper_hunger] hunger 60 2
 effect give @e[tag=dm_creeper_slowness] slowness 60 0
 
-
 #run this function every second
 schedule function depthmobs:second 1s

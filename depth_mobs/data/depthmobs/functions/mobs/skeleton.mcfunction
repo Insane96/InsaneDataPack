@@ -1,5 +1,5 @@
 scoreboard players set @s random 100
-execute as @s run function global:random/functions/generate
+execute as @s run function global:random/generate
 
 #TODO overwrite only necessary equipment
 
