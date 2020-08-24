@@ -29,9 +29,17 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:diamond",Count:1b}}] at @s if b
 execute as @e[type=item,nbt={Item:{id:"minecraft:diamond",Count:1b}}] at @s if block ~ ~-1 ~ minecraft:lodestone run kill @s
 
 execute as @e[tag=nether_spire_activation] at @s if predicate test:check_lodestone_structure run tag @s add nether_spire_can_activate
+
+execute as @e[tag=nether_spire_activation,tag=nether_spire_can_activate] at @s run fill ~-8 ~-2 ~-8 ~8 ~4 ~8 air
 execute as @e[tag=nether_spire_activation,tag=nether_spire_can_activate] at @s run setblock ~ ~-1 ~ structure_block{ignoreEntities:0b,seed:0L,mode:"LOAD",posX:-8,posY:-1,posZ:-8,sizeX:17,integrity:1.0f,sizeY:32,sizeZ:17,name:"minecraft:nether_spire_boss"}
 execute as @e[tag=nether_spire_activation,tag=nether_spire_can_activate] at @s run setblock ~ ~ ~ redstone_block
+execute as @e[tag=nether_spire_activation,tag=nether_spire_can_activate] at @s run fill ~-8 ~-2 ~-8 ~8 ~-10 ~8 netherrack keep
+execute as @e[tag=nether_spire_activation,tag=nether_spire_can_activate] at @s run fill ~-8 ~-2 ~-8 ~8 ~-10 ~8 netherrack replace water
+execute as @e[tag=nether_spire_activation,tag=nether_spire_can_activate] at @s run fill ~-8 ~-2 ~-8 ~8 ~-10 ~8 netherrack replace lava
+execute as @e[tag=nether_spire_activation,tag=nether_spire_can_activate] at @s run kill @e[type=item,distance=..10]
+
 execute as @e[tag=nether_spire_activation,tag=!nether_spire_can_activate] at @s run summon item ~ ~1 ~ {Motion:[0.0,0.4,0.2],Item:{id:"minecraft:diamond",Count:1b}}
+
 kill @e[tag=nether_spire_activation]
 
 #run this function every second
