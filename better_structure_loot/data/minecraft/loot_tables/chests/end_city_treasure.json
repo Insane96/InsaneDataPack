@@ -919,7 +919,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{RepairCost:19,Enchantments:[{id:\"minecraft:unbreaking\",lvl:10},{id:\"minecraft:efficiency\",lvl:5}]}"
+							"tag": "{RepairCost:19,Enchantments:[{id:\"minecraft:unbreaking\",lvl:10},{id:\"minecraft:efficiency\",lvl:5}],CustomModelData:220001}"
 						},
 						{
 							"function": "minecraft:set_name",
