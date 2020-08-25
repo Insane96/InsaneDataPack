@@ -1,7 +1,10 @@
 execute as @e[type=item,nbt={Item:{Count:1b,id:"minecraft:diamond"}}] at @s if block ~ ~ ~ minecraft:chest{Items: [{Slot: 3b, id: "minecraft:bucket", Count: 1b}, {Slot: 4b, id: "minecraft:hopper", Count: 1b}, {Slot: 5b, id: "minecraft:bucket", Count: 1b}, {Slot: 12b, id: "minecraft:ender_eye", Count: 1b}, {Slot: 13b, id: "minecraft:experience_bottle", Count: 1b}, {Slot: 14b, id: "minecraft:ender_eye", Count: 1b}, {Slot: 21b, id: "minecraft:bucket", Count: 1b}, {Slot: 22b, id: "minecraft:hopper", Count: 1b}, {Slot: 23b, id: "minecraft:bucket", Count: 1b}]} run tag @s add xp_holder_craft
 
 execute at @e[tag=xp_holder_craft] run summon armor_stand ~ ~-0.5 ~ {Invisible:1b,Tags:["xp_holder"],HandItems:[{id:"minecraft:experience_bottle",Count:1b},{}],NoGravity:1b,Marker:1b,Fire:32000,Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]}}
-execute as @e[tag=xp_holder_craft] at @s as @e[type=armor_stand,tag=xp_holder,distance=..3] at @s align xyz run tp @s ~.9 ~.05 ~0.2
-execute as @e[tag=xp_holder_craft] at @s as @e[type=armor_stand,tag=xp_holder,distance=..3] at @s run data merge block ~ ~ ~ {Items:[],Lock:"asdasdasd"}
-execute as @e[tag=xp_holder_craft] at @s as @e[type=armor_stand,tag=xp_holder,distance=..3] at @s run scoreboard players set @s xpHeld 0
+execute as @e[tag=xp_holder_craft] at @s if block ~ ~ ~ minecraft:chest[facing=south] as @e[type=armor_stand,tag=xp_holder,distance=..2,limit=1,sort=nearest] at @s align xyz run tp @s ~.89 ~.05 ~0.205 ~ ~
+execute as @e[tag=xp_holder_craft] at @s if block ~ ~ ~ minecraft:chest[facing=north] as @e[type=armor_stand,tag=xp_holder,distance=..3,limit=1,sort=nearest] at @s align xyz run tp @s ~0.1 ~.05 ~.79 ~180 ~
+execute as @e[tag=xp_holder_craft] at @s if block ~ ~ ~ minecraft:chest[facing=east] as @e[type=armor_stand,tag=xp_holder,distance=..3,limit=1,sort=nearest] at @s align xyz run tp @s ~0.2 ~.05 ~.105 ~270 ~
+execute as @e[tag=xp_holder_craft] at @s if block ~ ~ ~ minecraft:chest[facing=west] as @e[type=armor_stand,tag=xp_holder,distance=..3,limit=1,sort=nearest] at @s align xyz run tp @s ~0.79 ~.05 ~.89 ~90 ~
+execute as @e[tag=xp_holder_craft] at @s as @e[type=armor_stand,tag=xp_holder,distance=..3,limit=1,sort=nearest] at @s run data merge block ~ ~ ~ {Items:[],Lock:"you can't open me"}
+execute as @e[tag=xp_holder_craft] at @s as @e[type=armor_stand,tag=xp_holder,distance=..3,limit=1,sort=nearest] at @s run scoreboard players set @s xpHeld 0
 kill @e[tag=xp_holder_craft]
