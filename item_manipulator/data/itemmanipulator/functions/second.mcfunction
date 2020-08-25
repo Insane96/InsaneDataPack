@@ -6,10 +6,10 @@ tag @a[tag=im_hasBook] remove im_hasBook
 # 00000
 # cdpgv
 # v: value
+# c: center (1 center, 2 center y too)
+# d: NoDespawn (1 no despawn)
 # g: NoGravity (0 gravity, 1 no gravity)
 # p: NoPickUp (0 can be picked up, 1 cannot)
-# d: NoDespawn (1 no despawn)
-# c: center (1 center, 2 center y too)
 
 execute as @a[scores={im_trigger=00010}] at @s run data modify entity @e[type=item,limit=1,distance=..4,sort=nearest] NoGravity set value 0
 execute as @a[scores={im_trigger=00011}] at @s run data modify entity @e[type=item,limit=1,distance=..4,sort=nearest] NoGravity set value 1
