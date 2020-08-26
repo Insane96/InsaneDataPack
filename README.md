@@ -109,9 +109,11 @@ After 10 minutes all the blocks (and Bedrock) in a 3 by 2 by 3 area will be dest
 
 ### **XP Holder**
 
-A chest to store your precious XP
+A chest to store your precious XP. Right-clicking on the XP Holder will tell you how much XP is contained.
 
-Place the following items in the center of a chest and drop a diamond on top of it
+Place the following items in the center of a chest and drop a diamond on top of it.
+
+![](https://i.imgur.com/Evm1XZ4.png)
 
 ![](/gifs/xp_holder_craft.gif)
 
