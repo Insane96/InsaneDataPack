@@ -1,5 +1,3 @@
-data modify entity @s {} set value {Attributes:[{Name:generic.maxHealth,Base:600}],Health:600}
-
 execute at @a[distance=..30] run summon lightning_bolt ~-1.5 ~ ~
 execute at @a[distance=..30] run summon lightning_bolt ~1.5 ~ ~
 execute at @a[distance=..30] run summon lightning_bolt ~ ~ ~-1.5
