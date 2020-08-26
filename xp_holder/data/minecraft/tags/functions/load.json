@@ -3,6 +3,7 @@
         "xpholder:init",
         "xpholder:half_second",
         "xpholder:second",
-        "xpholder:tick"
+        "xpholder:tick",
+        "xpholder:raycast/init"
     ]
 }
