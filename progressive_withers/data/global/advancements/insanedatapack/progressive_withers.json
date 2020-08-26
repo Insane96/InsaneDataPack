@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Progressive Withers",
+        "description": "??",
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:insanedatapack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
