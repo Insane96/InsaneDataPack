@@ -59,7 +59,6 @@ execute as @e[tag=void_miner,scores={random_data=99..99}] at @s run summon item 
 execute as @e[tag=granade] at @s positioned ~ ~1 ~ if entity @e[distance=..1.25,type=!item,tag=!granade] run data modify entity @s Fuse set value 0
 execute as @e[tag=granade,nbt={Motion:[0.0,0.0,0.0]}] at @s run data modify entity @s Fuse set value 0
 
-# item merger 
 
 #run this function every tick
 schedule function test:tick 1
