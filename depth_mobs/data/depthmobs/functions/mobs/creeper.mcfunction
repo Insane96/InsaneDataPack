@@ -7,7 +7,7 @@ data modify entity @s[scores={random_data=0..19},y=20,dy=-20] {} merge value {Cu
 
 data modify entity @s[scores={random_data=20..39},y=20,dy=-20] {} merge value {CustomName:'{"text":"Immobilizing Gas Creeper"}',Attributes:[{Name:"minecraft:generic.movement_speed",Base:4.0}],Tags:["dm_creeper_immobilize","dm_creeper_gas"],ExplosionRadius:0,Fuse:15}
 
-data modify entity @s[scores={random_data=40..69},y=20,dy=-20] {} merge value {CustomName:'{"text":"Death Creeper"}',ExplosionRadius:4,Fuse:35,Tags:["dm_creeper_death"]}
+data modify entity @s[scores={random_data=40..69},y=20,dy=-20] {} merge value {CustomName:'{"text":"Death Creeper"}',ExplosionRadius:5,Fuse:35,Tags:["dm_creeper_death"]}
 
 data modify entity @s[scores={random_data=..14},y=40,dy=-20] {} merge value {CustomName:'{"text":"Weakening Gas Creeper"}',Attributes:[{Name:"minecraft:generic.movement_speed",Base:0.3}],Tags:["dm_creeper_weakness","dm_creeper_gas"],ExplosionRadius:0,Fuse:15}
 
