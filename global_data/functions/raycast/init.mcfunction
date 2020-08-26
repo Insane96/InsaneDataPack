@@ -1,0 +1,1 @@
+scoreboard objectives add idp_raycast dummy
