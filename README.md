@@ -4,6 +4,7 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 
 ## Index
 * [Functional modules](#functional-modules)
+    * [Progressive Withers](#progressive-withers)
     * [Depth Mobs](#depth-mobs)
     * [Soul Forge](#soul-forge)
     * [Item Manipulator](#item-manipulator)
@@ -16,6 +17,15 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 
 ## **Functional Modules**
 Modules that use Functions to do stuff
+
+### **Progressive Withers**
+Ported from [TesseractFour]() with some changes a module that makes the Wither Harder each time one is spawned.
+On spawn explosions will be stronger, Wither will have more health and will spawn Minions. 
+This Module also prevents the Wither from begin spawned inside Bedrock to get him stuck.
+The difficulty increases for each player in a 60 block radius of the Wither. Also the difficulty of the Wither is the sum of the players' difficulty so more players = more difficulty.
+Health increases by 25 for each Wither Spawned (e.g. the 3rd wither spawned will have 375 health)
+
+![](/gifs/progressive_withers.gif)
 
 ### **Depth Mobs**
 Inspired by (Vazkii's mod) Quark's Depth Mobs feature and ported from TesseractFour (an old DataPack project by ChocoParrot).  
