@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Vacuum Hoppers",
+        "description": "Attacts items in a radius between the hopper",
+        "icon": {
+            "item": "minecraft:hopper"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:insanedatapack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "values": [
+        "vacuumhoppers:init",
+        "vacuumhoppers:half_second",
+        "vacuumhoppers:second",
+        "vacuumhoppers:tick"
+    ]
+}
