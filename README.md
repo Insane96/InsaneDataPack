@@ -4,6 +4,7 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 
 ## Index
 * [Functional modules](#functional-modules)
+    * [Vacuum Hoppers](#vacuum-hoppers)
     * [Progressive Withers](#progressive-withers)
     * [Depth Mobs](#depth-mobs)
     * [Soul Forge](#soul-forge)
@@ -17,6 +18,37 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 
 ## **Functional Modules**
 Modules that use Functions to do stuff
+
+### **Vacuum Hoppers**
+Hoppers can now become Vacuum and pick up all the items in an area.  
+To make a Basic Vacuum Hopper put those items in an Hopper and drop a Redstone Block in the Hopper.
+
+![](https://i.imgur.com/bpeUCpg.png)
+
+The Basic Vacuum Hopper will pick up one item per second in a 3x3x3 area.
+
+![](https://i.imgur.com/9WBLCwH.png)
+![](https://i.imgur.com/1DWkBNz.png)
+
+Placing specific items in the Basic Vacuum Hopper it can be upgraded to an Advanced Vacuum Hopper.
+
+![](https://i.imgur.com/t96XP45.png)
+
+The Advanced Vacuum Hopper will pick up two items per second in a 7x7x7 area.
+
+![](https://i.imgur.com/fYVMnFK.png)
+
+The Super Vacuum Hopper can be created by putting the following items in an Advanced Vacuum Hopper
+
+![](https://i.imgur.com/gn84YRi.png)
+
+The Super Vacuum Hopper will pick up three items per second in a 11x11x11 area.
+
+![](https://i.imgur.com/pCWq0aP.png)
+
+Breaking a Vacuum Hopper will drop all the items used to craft it
+
+![](https://i.imgur.com/yyMc59T.png)
 
 ### **Progressive Withers**
 Ported from [TesseractFour]() with some changes a module that makes the Wither Harder each time one is spawned.
