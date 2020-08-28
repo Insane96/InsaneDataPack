@@ -11,16 +11,11 @@ execute as @e[tag=vh.create_item] at @s if entity @e[type=armor_stand,distance=.
 execute as @e[tag=vh.create_item] at @s run function vacuumhoppers:methods/crafting_basic
 
 # Upgrading
-#function VacuumHoppers:Package/Upgrade if @e[tag=T4_VH,type=armor_stand]
+execute as @e[tag=vh.tier_1] at @s run function vacuumhoppers:methods/upgrade_advanced
+execute as @e[tag=vh.tier_2] at @s run function vacuumhoppers:methods/upgrade_super
 
 # Vacuum
 execute as @e[tag=vacuum_hopper,type=armor_stand] at @s run function vacuumhoppers:methods/vacuum
 
 #Remove
 execute as @e[tag=vacuum_hopper] at @s if block ~ ~ ~ air run function vacuumhoppers:methods/remove
-
-#execute @e[tag=T4_VH1] ~ ~ ~ detect ~ ~ ~ air -1 scoreboard players tag @s add T4_VH1_remove
-#function VacuumHoppers:package/remove if @e[tag=T4_VH1_remove,type=armor_stand]
-
-#execute @e[tag=T4_VH2] ~ ~ ~ detect ~ ~ ~ air -1 scoreboard players tag @s add T4_VH2_remove
-#function VacuumHoppers:package/remove if @e[tag=T4_VH2_remove,type=armor_stand]

@@ -14,7 +14,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:emerald",
+                    "name": "minecraft:netherite_scrap",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -44,7 +44,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:shulker_shell",
+                    "name": "minecraft:chorus_fruit",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
