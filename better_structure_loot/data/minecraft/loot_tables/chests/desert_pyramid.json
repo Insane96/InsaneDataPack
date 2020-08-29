@@ -125,11 +125,11 @@
                         }
                     ]
                 }
-			]
-		},
-		{
-			"rolls": 2,
-			"entries": [
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:bone",
@@ -205,7 +205,7 @@
                         }
                     ]
                 },
-				{
+                {
                     "type": "minecraft:item",
                     "name": "minecraft:cactus",
                     "weight": 2,
@@ -219,7 +219,7 @@
                         }
                     ]
                 },
-				{
+                {
                     "type": "minecraft:item",
                     "name": "minecraft:dead_bush",
                     "weight": 1,
@@ -235,16 +235,16 @@
                 }
             ]
         },
-		{
-			"rolls": 1,
-			"conditions":[
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.333
-				}
-			],
-			"entries":[
-				{
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.35
+                }
+            ],
+            "entries": [
+                {
                     "type": "minecraft:item",
                     "name": "minecraft:leather_helmet",
                     "weight": 1,
@@ -253,13 +253,29 @@
                             "function": "minecraft:set_nbt",
                             "tag": "{RepairCost:40,display:{color:1878784},Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:unbreaking\",lvl:10},{id:\"minecraft:thorns\",lvl:10}]}"
                         },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Cactus Helmet",
+                                "color": "dark_green",
+                                "italic": false
+                            }
+                        },
 						{
-							"function": "minecraft:set_name",
-							"name": {"text": "Cactus Helmet", "color": "dark_green", "italic": false, "bold": true}
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "cactus_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"amount": 3,
+									"slot": "head"
+								}
+							]
 						}
                     ]
-				},
-				{
+                },
+                {
                     "type": "minecraft:item",
                     "name": "minecraft:leather_chestplate",
                     "weight": 1,
@@ -268,13 +284,29 @@
                             "function": "minecraft:set_nbt",
                             "tag": "{RepairCost:40,display:{color:1878784},Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:unbreaking\",lvl:10},{id:\"minecraft:thorns\",lvl:10}]}"
                         },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Cactus Chestplate",
+                                "color": "dark_green",
+                                "italic": false
+                            }
+                        },
 						{
-							"function": "minecraft:set_name",
-							"name": {"text": "Cactus Chestplate", "color": "dark_green", "italic": false, "bold": true}
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "cactus_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"amount": 5,
+									"slot": "chest"
+								}
+							]
 						}
                     ]
-				},
-				{
+                },
+                {
                     "type": "minecraft:item",
                     "name": "minecraft:leather_leggings",
                     "weight": 1,
@@ -283,13 +315,29 @@
                             "function": "minecraft:set_nbt",
                             "tag": "{RepairCost:40,display:{color:1878784},Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:unbreaking\",lvl:10},{id:\"minecraft:thorns\",lvl:10}]}"
                         },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Cactus Leggings",
+                                "color": "dark_green",
+                                "italic": false
+                            }
+                        },
 						{
-							"function": "minecraft:set_name",
-							"name": {"text": "Cactus Leggings", "color": "dark_green", "italic": false, "bold": true}
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "cactus_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"amount": 4,
+									"slot": "legs"
+								}
+							]
 						}
                     ]
-				},
-				{
+                },
+                {
                     "type": "minecraft:item",
                     "name": "minecraft:leather_boots",
                     "weight": 1,
@@ -298,13 +346,29 @@
                             "function": "minecraft:set_nbt",
                             "tag": "{RepairCost:40,display:{color:1878784},Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:unbreaking\",lvl:10},{id:\"minecraft:thorns\",lvl:10}]}"
                         },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Cactus Boots",
+                                "color": "dark_green",
+                                "italic": false
+                            }
+                        },
 						{
-							"function": "minecraft:set_name",
-							"name": {"text": "Cactus Boots", "color": "dark_green", "italic": false, "bold": true}
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "cactus_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"amount": 2,
+									"slot": "feet"
+								}
+							]
 						}
                     ]
-				}
-			]
-		}
+                }
+            ]
+        }
     ]
 }
