@@ -1,7 +1,7 @@
 {
     "display": {
-        "title": "Enchantment Splitter",
-        "description": "Split Books with multiple Enchantments in single books.",
+        "title": "eBook Splitter",
+        "description": "Split Books with multiple Enchantments into single books.",
         "icon": {
             "item": "minecraft:enchanted_book"
         },
