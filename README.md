@@ -4,6 +4,7 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 
 ## Index
 * [Functional modules](#functional-modules)
+    * [eBook Splitter](#ebook-splitter)
     * [Vacuum Hoppers](#vacuum-hoppers)
     * [Progressive Withers](#progressive-withers)
     * [Depth Mobs](#depth-mobs)
@@ -18,6 +19,13 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 
 ## **Functional Modules**
 Modules that use Functions to do stuff
+
+### **eBook Splitter**
+
+Throwing an Enchanted book on a Grindstone will split the book for each Enchantment, one book per enchantment.
+This operation costs 50 xp per enchantment up to 4 enchantments. 5th enchantment and so on will be lost.
+
+![](gifs/ebook_splitter.gif)
 
 ### **Vacuum Hoppers**
 Hoppers can now become Vacuum and pick up all the items in an area.  
@@ -178,6 +186,7 @@ Modules that change e.g. Loot Tables but have no functions running
 * Sticks and Chests can be mass-crafted from logs
 * Sticks can be obtained from saplings
 * You can break down ladders to sticks
+* You can smelt leather armor to get back one piece of Rabbit Hide
 
 ### **Better Structure Loot**
 
