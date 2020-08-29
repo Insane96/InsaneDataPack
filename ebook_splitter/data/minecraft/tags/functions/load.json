@@ -1,0 +1,8 @@
+{
+    "values": [
+        "ebooksplitter:init",
+        "ebooksplitter:half_second",
+        "ebooksplitter:second",
+        "ebooksplitter:tick"
+    ]
+}

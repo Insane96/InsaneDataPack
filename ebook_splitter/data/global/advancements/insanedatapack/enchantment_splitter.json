@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Enchantment Splitter",
+        "description": "Split Books with multiple Enchantments in single books.",
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:insanedatapack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
