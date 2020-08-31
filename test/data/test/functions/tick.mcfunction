@@ -60,5 +60,8 @@ execute as @e[tag=granade] at @s positioned ~ ~1 ~ if entity @e[distance=..1.25,
 execute as @e[tag=granade,nbt={Motion:[0.0,0.0,0.0]}] at @s run data modify entity @s Fuse set value 0
 
 
+execute in minecraft:overworld as @a[advancements={test:test/test=true}] at @s anchored eyes positioned ^ ^ ^ anchored feet run function test:raycast/start_ray
+advancement revoke @a[advancements={test:test/test=true}] only test:test/test
+
 #run this function every tick
 schedule function test:tick 1

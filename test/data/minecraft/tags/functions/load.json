@@ -3,6 +3,7 @@
         "test:init",
         "test:half_second",
         "test:second",
-        "test:tick"
+        "test:tick",
+        "test:raycast/init"
     ]
 }
