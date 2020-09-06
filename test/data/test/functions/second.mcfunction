@@ -20,13 +20,5 @@ kill @e[tag=f_flair,scores={count=4}]
 
 #execute as @e[tag=flair_armor_stand] at @s run particle minecraft:flash ~ ~ ~ 0 0 0 5 20 force
 
-execute as @e[tag=ns_collapse] at @s if entity @a[tag=collapse,distance=..40] run summon creeper ~ ~ ~ {Fuse:0,Silent:1b,Invulnerable:1b,CustomName:'{"text":"Nether Spire Collapse"}',ExplosionRadius:5}
-execute as @e[tag=ns_collapse] at @s if entity @a[tag=collapse,distance=..40] run tp @s ~ ~-3.25 ~
-execute as @e[tag=ns_collapse] at @s if entity @a[tag=collapse,distance=..40] run scoreboard players add @s test 1 
-kill @e[tag=ns_collapse,scores={test=8..}]
-
-# execute as @e[type=item,nbt={Item:{id:"minecraft:diamond",Count:1b}}] at @s if block ~ ~-1 ~ minecraft:lodestone align xyz run summon armor_stand ~.5 ~-.5 ~.5 {NoGravity:1b,Invisible:1b,Tags:["nether_spire_activation"]}
-# execute as @e[type=item,nbt={Item:{id:"minecraft:diamond",Count:1b}}] at @s if block ~ ~-1 ~ minecraft:lodestone run kill @s
-
 #run this function every second
 schedule function test:second 1s

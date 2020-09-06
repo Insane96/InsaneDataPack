@@ -1,0 +1,9 @@
+{
+    "values": [
+        "netherspire:init",
+        "netherspire:half_second",
+        "netherspire:second",
+        "netherspire:tick",
+        "netherspire:raycast/init"
+    ]
+}

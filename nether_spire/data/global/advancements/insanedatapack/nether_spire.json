@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Nether Spire",
+        "description": "Enter the Dangerous Nether Spire and fight the powerful Piglin Boss",
+        "icon": {
+            "item": "minecraft:respawn_anchor"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:insanedatapack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

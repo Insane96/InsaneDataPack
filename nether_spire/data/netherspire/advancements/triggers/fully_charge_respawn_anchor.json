@@ -9,7 +9,7 @@
         "announce_to_chat": true,
         "hidden": true
     },
-    "parent": "test:test/root",
+    "parent": "netherspire:root",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:item_used_on_block",
@@ -23,7 +23,8 @@
                         "state": {
                             "charges": "4"
                         }
-                    }
+                    },
+                    "dimension": "minecraft:overworld"
                 }
             }
         }
