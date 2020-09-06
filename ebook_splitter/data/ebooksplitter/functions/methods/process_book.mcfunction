@@ -19,18 +19,22 @@ execute if score @p es.playerXp < @p es.requiredXp run scoreboard players reset 
 
 execute if entity @s[tag=es.has_enchantment_0] run summon item ~ ~ ~ {PickupDelay:40,Item:{id:"minecraft:enchanted_book",Count:1b,tag:{}},Tags:["es.enchanted_book_0"]}
 data modify entity @e[tag=es.enchanted_book_0,limit=1,sort=nearest] Item.tag.StoredEnchantments append from entity @s Item.tag.StoredEnchantments[0]
+data modify entity @e[tag=es.enchanted_book_0,limit=1,sort=nearest] Item.tag.RepairCost set from entity @s Item.tag.RepairCost
 tag @e[tag=es.enchanted_book_0] remove es.enchanted_book_0
 
 execute if entity @s[tag=es.has_enchantment_1] run summon item ~ ~ ~ {PickupDelay:40,Item:{id:"minecraft:enchanted_book",Count:1b,tag:{}},Tags:["es.enchanted_book_1"]}
 data modify entity @e[tag=es.enchanted_book_1,limit=1,sort=nearest] Item.tag.StoredEnchantments append from entity @s Item.tag.StoredEnchantments[1]
+data modify entity @e[tag=es.enchanted_book_1,limit=1,sort=nearest] Item.tag.RepairCost append from entity @s Item.tag.RepairCost
 tag @e[tag=es.enchanted_book_1] remove es.enchanted_book_1
 
 execute if entity @s[tag=es.has_enchantment_2] run summon item ~ ~ ~ {PickupDelay:40,Item:{id:"minecraft:enchanted_book",Count:1b,tag:{}},Tags:["es.enchanted_book_2"]}
 data modify entity @e[tag=es.enchanted_book_2,limit=1,sort=nearest] Item.tag.StoredEnchantments append from entity @s Item.tag.StoredEnchantments[2]
+data modify entity @e[tag=es.enchanted_book_2,limit=1,sort=nearest] Item.tag.RepairCost append from entity @s Item.tag.RepairCost
 tag @e[tag=es.enchanted_book_2] remove es.enchanted_book_2
 
 execute if entity @s[tag=es.has_enchantment_3] run summon item ~ ~ ~ {PickupDelay:40,Item:{id:"minecraft:enchanted_book",Count:1b,tag:{}},Tags:["es.enchanted_book_3"]}
 data modify entity @e[tag=es.enchanted_book_3,limit=1,sort=nearest] Item.tag.StoredEnchantments append from entity @s Item.tag.StoredEnchantments[3]
+data modify entity @e[tag=es.enchanted_book_3,limit=1,sort=nearest] Item.tag.RepairCost append from entity @s Item.tag.RepairCost
 tag @e[tag=es.enchanted_book_3] remove es.enchanted_book_3
 
 execute if score @p es.requiredXp matches 1.. run particle enchant ~ ~1 ~ 0 0 0 0.5 500
