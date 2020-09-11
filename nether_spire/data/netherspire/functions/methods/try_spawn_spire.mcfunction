@@ -10,16 +10,24 @@ execute as @e[tag=ns.can_activate] at @s run fill ~-8 ~-2 ~-8 ~8 ~-10 ~8 netherr
 execute as @e[tag=ns.can_activate] at @s run fill ~-8 ~-2 ~-8 ~8 ~-10 ~8 netherrack replace water
 execute as @e[tag=ns.can_activate] at @s run fill ~-8 ~-2 ~-8 ~8 ~-10 ~8 netherrack replace lava
 
-execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~ ~-1.5 ~ {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
+execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~ ~-1.5 ~ {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b,Tags:["ns.controller"]}
 
 #Prevent Respawn Anchor Right-click
-#execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~-.5 ~-1.5 ~-.5 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
-#execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~.5 ~-1.5 ~-.5 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
-#execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~-.5 ~-1.5 ~.5 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
-#execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~.5 ~-1.5 ~.5 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
-#execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~.5 ~-1.5 ~ {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
-#execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~-.5 ~-1.5 ~ {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
-#execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~ ~-1.5 ~.5 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
-#execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~ ~-1.5 ~-.5 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
+execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~-.5 ~-1.5 ~-.5 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
+execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~.5 ~-1.5 ~-.5 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
+execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~-.5 ~-1.5 ~.5 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
+execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~.5 ~-1.5 ~.5 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
+execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~.5 ~-1.5 ~ {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
+execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~-.5 ~-1.5 ~ {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
+execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~ ~-1.5 ~.5 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
+execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~ ~-1.5 ~-.5 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b}
+
+#Collapse Armor Stands
+execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~-3.75 ~28.5 ~-3.75 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b,Tags:["ns.collapse"],Marker:1b}
+execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~3.75 ~28.5 ~-3.75 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b,Tags:["ns.collapse"],Marker:1b}
+execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~-3.75 ~28.5 ~3.75 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b,Tags:["ns.collapse"],Marker:1b}
+execute as @e[tag=ns.can_activate] at @s run summon armor_stand ~3.75 ~28.5 ~3.75 {Invulnerable:1b,NoGravity:1b,DisabledSlots:4144959,Invisible:1b,Tags:["ns.collapse"],Marker:1b}
+
+execute as @e[tag=ns.can_activate] at @s positioned ~-8.5 ~-2.5 ~-8.5 run function netherspire:methods/spawn_entities
 
 kill @e[tag=ns.activation]

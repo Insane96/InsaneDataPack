@@ -3,10 +3,10 @@
         "icon": {
             "item": "minecraft:respawn_anchor"
         },
-        "title": "Test",
-        "description": "Test",
+        "title": "Fully Charge Respawn Anchor",
+        "description": "Triggered when a Glowstone is right clicked on a Respawn Anchor with 3 Charges",
         "show_toast": false,
-        "announce_to_chat": true,
+        "announce_to_chat": false,
         "hidden": true
     },
     "parent": "netherspire:root",

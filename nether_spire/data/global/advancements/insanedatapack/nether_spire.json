@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "Nether Spire",
-        "description": "Enter the Dangerous Nether Spire and fight the powerful Piglin Boss",
+        "description": "Enter the Dangerous Nether Spire and fight the powerful Zombie Pigman Boss",
         "icon": {
             "item": "minecraft:respawn_anchor"
         },

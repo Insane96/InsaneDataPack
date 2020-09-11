@@ -1,0 +1,2 @@
+give @s armor_stand{EntityTag:{NoGravity:1b,Invulnerable:1b,Marker:0b,Tags:["ns.piglin"],DisabledSlots:4144959},display:{Name:'"Piglin"'}}
+give @s armor_stand{EntityTag:{NoGravity:1b,Invulnerable:1b,Marker:0b,Tags:["ns.piglin_brute"],DisabledSlots:4144959},display:{Name:'"Piglin Brute"'}}
