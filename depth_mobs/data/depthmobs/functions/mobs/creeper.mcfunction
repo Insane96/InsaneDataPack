@@ -1,7 +1,7 @@
 scoreboard players set @s random 100
 execute as @s run function global:random/generate
 
-data modify entity @s[scores={random_data=84..93},y=30,dy=-30] {} merge value {CustomName:'{"text":"Hypercreeper"}',Attributes:[{Name:"minecraft:generic.movement_speed",Base:0.4},{Name:"minecraft:generic.max_health",Base:10},{Name:"minecraft:generic.follow_range",Base:80}],Health:10}
+data modify entity @s[scores={random_data=84..93},y=30,dy=-30] {} merge value {CustomName:'{"text":"Hypercreeper"}',Attributes:[{Name:"minecraft:generic.movement_speed",Base:0.38},{Name:"minecraft:generic.max_health",Base:10},{Name:"minecraft:generic.follow_range",Base:80}],Health:10}
 
 data modify entity @s[scores={random_data=0..19},y=20,dy=-20] {} merge value {CustomName:'{"text":"Blinding Gas Creeper"}',Attributes:[{Name:"minecraft:generic.movement_speed",Base:0.3}],Tags:["dm_creeper_blindness","dm_creeper_gas"],ExplosionRadius:0,Fuse:15}
 
