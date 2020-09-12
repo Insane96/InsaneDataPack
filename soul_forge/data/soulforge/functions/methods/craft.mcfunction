@@ -29,7 +29,7 @@ execute as @e[tag=soul_forge_craft,tag=soul_forge_craft_iron,tag=soul_forge_craf
 execute as @e[tag=soul_forge_craft,tag=soul_forge_craft_iron,tag=soul_forge_craft_magma,tag=soul_forge_craft_obsidian] at @s positioned ~ ~ ~1 if block ~ ~ ~ minecraft:iron_bars if block ~ ~-1 ~ minecraft:blast_furnace align xyz run summon armor_stand ~.5 ~-1 ~.5 {NoGravity:1b,Tags:["soul_forge","soul_forge_crafting"],Marker:1b,Invisible:1b}
 
 #lightning bolt, face armor stand and remove crafting tag
-execute as @e[tag=soul_forge_craft,tag=soul_forge_craft_iron,tag=soul_forge_craft_magma,tag=soul_forge_craft_obsidian] at @s align xyz positioned ~.5 ~.5 ~.5 run summon minecraft:lightning_bolt
+execute as @e[tag=soul_forge_craft,tag=soul_forge_craft_iron,tag=soul_forge_craft_magma,tag=soul_forge_craft_obsidian] at @s align xyz positioned ~.5 ~.5 ~.5 run playsound entity.lightning_bolt.thunder block @a[distance=..15] ~ ~ ~ 1.0 1.0
 execute as @e[tag=soul_forge_crafting] at @s facing entity @e[tag=soul_forge_craft,limit=1,sort=nearest] feet run tp @s ~ ~ ~ ~ 0
 tag @e[tag=soul_forge_crafting] remove soul_forge_crafting
 
