@@ -477,7 +477,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.20
+					"chance": 0.33
 				}
 			],
 			"entries": [
@@ -852,7 +852,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.175
+					"chance": 0.25
 				}
 			],
 			"entries": [
@@ -1003,7 +1003,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.175
+					"chance": 0.39
 				}
 			],
 			"entries": [
