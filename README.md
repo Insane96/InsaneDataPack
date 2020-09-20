@@ -36,7 +36,7 @@ They can also remove dye from more items such as Beds (consuming 1 water level) 
 ![](/gifs/bc.wool.gif)
 
 ### **Vacuum Hoppers**
-Hoppers can now become Vacuum and pick up all the items in an area.  
+Heavily inspired by [TesseractFour](https://bitbucket.org/ChocoParrot/tesseractfour/src/master/) Hoppers can now become Vacuum and pick up all the items in an area.  
 To make a Basic Vacuum Hopper put those items in an Hopper and drop a Redstone Block in the Hopper.
 
 ![](https://i.imgur.com/bpeUCpg.png)
@@ -67,7 +67,7 @@ Breaking a Vacuum Hopper will drop all the items used to craft it
 ![](https://i.imgur.com/yyMc59T.png)
 
 ### **Progressive Withers**
-Ported from [TesseractFour]() with some changes a module that makes the Wither Harder each time one is spawned.
+Ported from [TesseractFour](https://bitbucket.org/ChocoParrot/tesseractfour/src/master/) with some changes a module that makes the Wither Harder each time one is spawned.
 On spawn explosions will be stronger, Wither will have more health and will spawn Minions. 
 This Module also prevents the Wither from begin spawned inside Bedrock to get him stuck.
 The difficulty increases for each player in a 60 block radius of the Wither. Also the difficulty of the Wither is the sum of the players' difficulty so more players = more difficulty.
