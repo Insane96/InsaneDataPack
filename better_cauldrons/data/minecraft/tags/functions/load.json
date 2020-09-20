@@ -1,0 +1,8 @@
+{
+    "values": [
+        "bettercauldrons:init",
+        "bettercauldrons:half_second",
+        "bettercauldrons:second",
+        "bettercauldrons:tick"
+    ]
+}

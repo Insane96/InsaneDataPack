@@ -4,7 +4,7 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 
 ## Index
 * [Functional modules](#functional-modules)
-    * [eBook Splitter](#ebook-splitter)
+    * [Better Cauldrons](#better-cauldrons)
     * [Vacuum Hoppers](#vacuum-hoppers)
     * [Progressive Withers](#progressive-withers)
     * [Depth Mobs](#depth-mobs)
@@ -20,12 +20,20 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 ## **Functional Modules**
 Modules that use Functions to do stuff
 
-### **eBook Splitter**
+### **Better Cauldrons**
 
-Throwing an Enchanted book on a Grindstone will split the book for each Enchantment, one book per enchantment.
-This operation costs 50 xp per enchantment up to 4 enchantments. 5th enchantment and so on will be lost.
+With this module Cauldrons can do even more!
+First off they can harden Concrete Powder instantly by consuming all the water.
 
-![](gifs/ebook_splitter.gif)
+![](/gifs/bc.concrete.gif)
+
+They can also remove dye from more items such as Beds (consuming 1 water level) ...
+
+![](/gifs/bc.bed.gif)
+
+... Wool, Carpets and Terracotta (all the water required and consumed)
+
+![](/gifs/bc.wool.gif)
 
 ### **Vacuum Hoppers**
 Hoppers can now become Vacuum and pick up all the items in an area.  

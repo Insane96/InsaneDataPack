@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Better Cauldrons",
+        "description": "Remove dyes from even more items and harden that Concete faster!",
+        "icon": {
+            "item": "minecraft:cauldron"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:insanedatapack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
