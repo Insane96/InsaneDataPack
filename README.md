@@ -76,9 +76,8 @@ Health increases by 25 for each Wither Spawned (e.g. the 3rd wither spawned will
 ![](/gifs/progressive_withers.gif)
 
 ### **Depth Mobs**
-Inspired by (Vazkii's mod) Quark's Depth Mobs feature and ported from TesseractFour (an old DataPack project by ChocoParrot).  
+Inspired by (Vazkii's mod) Quark's Depth Mobs feature and ported from [TesseractFour](https://bitbucket.org/ChocoParrot/tesseractfour/src/master/).  
 New varieties of mobs will spawn underground, from Gas Creepers to Undead Miners.  
-Every mob that has a head has a small chance to drop it.
 
 * Dweller  
 Zombie Miner that has more health and full knockback resistance. Has twice the health of a normal Zombie
