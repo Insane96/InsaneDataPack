@@ -852,7 +852,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.25
+					"chance": 0.27
 				}
 			],
 			"entries": [
@@ -899,6 +899,62 @@
 							{
 								"text": "Punchy Bow",
 								"color": "blue",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage":
+							{
+								"min": 0.1,
+								"max": 0.333
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{RepairCost:19,Enchantments:[{id:\"minecraft:quick_charge\",lvl:4}]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": 
+							{
+								"text": "Fastest Crossbow",
+								"color": "gray",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage":
+							{
+								"min": 0.1,
+								"max": 0.333
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{RepairCost:19,Enchantments:[{id:\"minecraft:piercing\",lvl:5}]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": 
+							{
+								"text": "Penetrating Crossbow",
+								"color": "red",
 								"italic": false
 							}
 						},
