@@ -34,6 +34,6 @@ execute as @e[tag=soul_forge_crafting] at @s facing entity @e[tag=soul_forge_cra
 tag @e[tag=soul_forge_crafting] remove soul_forge_crafting
 
 #if fails to craft
-execute as @e[tag=soul_forge_craft] at @s positioned ~ ~-1 ~ unless entity @e[tag=soul_forge,distance=..1] run summon item ~ ~2 ~ {Motion:[0.0,0.4,0.2],Item:{id:"minecraft:diamond",Count:1b}}
+execute as @e[tag=soul_forge_craft] at @s positioned ~ ~-1 ~ unless entity @e[tag=soul_forge,distance=..1] at @p run summon item ~ ~2 ~ {Item:{id:"minecraft:diamond",Count:1b}}
 
 kill @e[tag=soul_forge_craft]
