@@ -115,6 +115,9 @@ A faster than normal creeper but much easier to kill
 * Death Creeper  
 A creeper that takes more time to explode than a normal Creeper but has a much powerful explosion
 
+* Pig Jockey  
+A Creeper Riding a Pig, as simple as that
+
 ### **Soul Forge**
 
 Only the ancient livings of the Nether knew that power of Soul Fire can increase the yield from Ingot Ores.  
