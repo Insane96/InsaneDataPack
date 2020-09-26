@@ -1,1 +1,1 @@
-scoreboard objectives add bedrockBreaker dummy
+scoreboard objectives add bb.tick dummy
