@@ -1,1 +1,1 @@
-scoreboard objectives add dm_tick dummy
+scoreboard objectives add dm.tick dummy
