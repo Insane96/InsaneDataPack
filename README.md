@@ -200,6 +200,8 @@ Modules that change e.g. Loot Tables but have no functions running
 
 ### **Better Structure Loot**
 
+Also changes [Fishing](#fishing) Loot
+
 ### Abandoned Mineshaft
 
 In Abandoned Mineshafts you can now find many precious items, some food and tools left off the Miners, the items used by them to build the mineshaft and a few leftover enchanted books
@@ -338,9 +340,20 @@ Villages house chests can have two plushes: Villager and Goat
 
 ![](https://i.imgur.com/5BsjPv5.png)
 
+### Fishing
+
+* Heads to fish!
+
+![](https://i.imgur.com/asaHLcl.png)
+
+* Pufferfish and Saddle Chance is lower.
+* Enchanted books chance is slightly higher
+* Junk now has a small chance to get Depth Strider enchanted Leather Boots
+
 ### Other Structures
 
-Basically no changes, but if I get any idea on what to do with Woodland Mansions I will definitely change them since other than totems, they're pretty useless. Maybe I will make a Datapack with them.
+Basically no changes, but if I get any idea on what to do with Woodland Mansions I will definitely change them since, they're pretty useless. "But they have totems!" ... sure, have you ever made a Raid? They made Mansions useless af  
+Maybe I will make a Datapack for them with better items.
 
 ### **How to Install**
 
