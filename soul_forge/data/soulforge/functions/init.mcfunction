@@ -1,1 +1,1 @@
-scoreboard objectives add count dummy
+scoreboard objectives add sf.count dummy
