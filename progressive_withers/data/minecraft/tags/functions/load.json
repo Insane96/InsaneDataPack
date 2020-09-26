@@ -1,7 +1,6 @@
 {
     "values": [
         "progressivewithers:init",
-        "progressivewithers:second",
         "progressivewithers:tick"
     ]
 }

@@ -1,1 +1,1 @@
-tellraw @a[gamemode=creative] [{"text":"[InsaneDataPack] ","color":"gold"},{"text":"Test Loaded","color":"dark_green"}]
+tellraw @a [{"text":"[InsaneDataPack] ","color":"gold"},{"text":"Warning! Test DataPack has been loaded. This shouldn't be used in a normal world.","color":"dark_green"}]

@@ -1,1 +1,0 @@
-tellraw @a[gamemode=creative] [{"text":"[InsaneDataPack] ","color":"gold"},{"text":"Recipe Tweaks Loaded","color":"dark_green"}]
