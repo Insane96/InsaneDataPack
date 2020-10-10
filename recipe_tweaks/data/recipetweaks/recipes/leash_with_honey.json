@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ss ",
+        "sh ",
+        "  s"
+    ],
+    "key": {
+        "h": {
+            "tag": "minecraft:honey_bottle"
+        },
+        "s": {
+            "tag": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:leash"
+    }
+}
