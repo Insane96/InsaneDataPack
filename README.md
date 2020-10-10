@@ -35,6 +35,8 @@ They can also remove dye from more items such as Beds (consuming 1 water level) 
 
 ![](/gifs/bc.wool.gif)
 
+They can also clean up Sticky Pistons and transform them to Pistons
+
 ### **Vacuum Hoppers**
 Heavily inspired by [TesseractFour](https://bitbucket.org/ChocoParrot/tesseractfour/src/master/) Hoppers can now become Vacuum and pick up all the items in an area.  
 To make a Basic Vacuum Hopper put those items in an Hopper and drop a Redstone Block in the Hopper.
