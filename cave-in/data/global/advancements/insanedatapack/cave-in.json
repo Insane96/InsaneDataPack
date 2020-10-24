@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Cave-In",
+        "description": "You should be aware that without a support those Caves could collapse",
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:insanedatapack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
