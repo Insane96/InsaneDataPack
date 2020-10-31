@@ -22,3 +22,20 @@ kill @e[tag=f_flair,scores={count=4}]
 
 #run this function every second
 schedule function test:second 1s
+
+scoreboard players set @a[scores={tor.deaths=1..}] tor.damageTaken 0
+scoreboard players set @a[scores={tor.deaths=1..}] tor.deaths 0
+
+execute as @a[scores={tor.damageTaken=60..}] at @s run particle block redstone_block ~ ~1.4 ~ 0.4 0.6 0.4 0.05 5 normal @a
+effect give @a[scores={tor.damageTaken=100..}] hunger 2 0 true
+effect give @a[scores={tor.damageTaken=100..}] slowness 2 0 true
+effect give @a[scores={tor.damageTaken=130..}] hunger 2 1 true
+effect give @a[scores={tor.damageTaken=130..}] slowness 2 1 true
+# effect give @a[scores={tor.damageTaken=120..}] nausea 3 0 true
+
+# Complete incapacitation
+effect give @a[scores={tor.damageTaken=160..}] blindness 2 0 true
+effect give @a[scores={tor.damageTaken=160..}] slowness 2 8 true
+title @a[scores={tor.damageTaken=160..}] actionbar {"text":"Incapacitated! You took too much damage! Please rest for a while.","color":"red"}
+
+scoreboard players remove @a[scores={tor.damageTaken=1..}] tor.damageTaken 1
