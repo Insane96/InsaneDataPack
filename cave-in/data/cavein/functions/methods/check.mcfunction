@@ -11,7 +11,7 @@ execute if entity @s[tag=ci.noSupportAround,scores={ci.blockCounter=0}] store re
 #If there's no cobblestone up to 7 blocks above the player
 execute if entity @s[tag=ci.noSupportAround,scores={ci.blockCounter=0}] store result score @s ci.blockCounter run clone ~ ~1 ~ ~ ~8 ~ ~ ~1 ~ filtered minecraft:dirt force
 #If there's at least a dirt up to 7 blocks above the player
-execute if entity @s[tag=ci.noSupportAround,scores={ci.blockCounter=1..}] run particle block minecraft:stone ~ ~3 ~ 2 1.5 2 0.01 120 normal @a
+execute if entity @s[tag=ci.noSupportAround,scores={ci.blockCounter=1..}] run particle block minecraft:stone ~ ~3 ~ 2.5 2 2.5 0.01 66 normal @a
 scoreboard players set @s[tag=ci.noSupportAround,scores={ci.blockCounter=1..}] random 100
 execute if entity @s[tag=ci.noSupportAround,scores={ci.blockCounter=1..}] run function global:random/generate
 #10% chance
