@@ -4,6 +4,7 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 
 ## Index
 * [Functional modules](#functional-modules)
+    * [Cave-Ins](#cave-ins)
     * [Better Cauldrons](#better-cauldrons)
     * [Vacuum Hoppers](#vacuum-hoppers)
     * [Progressive Withers](#progressive-withers)
@@ -19,6 +20,12 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 
 ## **Functional Modules**
 Modules that use Functions to do stuff
+
+### **Cave-Ins**
+
+When mining there's a chance that the cave will collapse. Collapses can be smaller or bigger (like the one in the gif). You can stop collapses by using Logs.
+
+![](/gifs/ci.collapse.gif)
 
 ### **Better Cauldrons**
 
