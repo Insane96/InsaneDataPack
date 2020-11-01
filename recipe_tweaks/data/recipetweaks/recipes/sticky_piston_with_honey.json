@@ -7,13 +7,14 @@
     ],
     "key": {
         "h": {
-            "tag": "minecraft:honey_bottle"
+            "item": "minecraft:honey_bottle"
         },
         "p": {
             "tag": "minecraft:piston"
         }
     },
     "result": {
-        "item": "minecraft:sticky_piston"
+        "item": "minecraft:sticky_piston",
+        "count": 1
     }
 }
