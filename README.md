@@ -305,11 +305,15 @@ No more saddles and horse armors (I want them to be a rarer item so I left them 
 
 ![](https://i.imgur.com/gsu3YBU.png)
 
-And also a chance to find two special items, the Defensive Slimeball and the Speedy Bone that have random bonuses
+And also a chance to find two special items, the Slimeshield and the Speedy Bone that have bonus stats by giving up some other stats
 
-![](https://i.imgur.com/Cfdfkc3.png) ![](https://i.imgur.com/6943XpD.png)
+![](https://i.imgur.com/CI8FLWn.png)  
+![](https://i.imgur.com/7sGrVfq.png)
 
-Also Spooky Steve head
+![](https://i.imgur.com/9XbyApX.png)
+![](https://i.imgur.com/V5HnWAd.png)
+
+Also Spooky Steve head left there by ... Herobrine?
 
 ![](https://i.imgur.com/UhIzDv4.png)
 
