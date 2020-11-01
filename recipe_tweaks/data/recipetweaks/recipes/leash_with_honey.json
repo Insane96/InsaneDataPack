@@ -7,13 +7,14 @@
     ],
     "key": {
         "h": {
-            "tag": "minecraft:honey_bottle"
+            "item": "minecraft:honey_bottle"
         },
         "s": {
             "tag": "minecraft:string"
         }
     },
     "result": {
-        "item": "minecraft:leash"
+        "item": "minecraft:lead",
+        "count": 1
     }
 }
