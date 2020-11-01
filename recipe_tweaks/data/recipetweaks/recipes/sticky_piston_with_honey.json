@@ -10,7 +10,7 @@
             "item": "minecraft:honey_bottle"
         },
         "p": {
-            "tag": "minecraft:piston"
+            "item": "minecraft:piston"
         }
     },
     "result": {
