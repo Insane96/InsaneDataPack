@@ -298,7 +298,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{HideFlags:1,Enchantments:[{id:0,lvl:0}],RepairCost:40,CustomModelData:220001}"
+                            "tag": "{RepairCost:40,CustomModelData:220001}"
                         },
                         {
                             "function": "minecraft:set_attributes",
@@ -352,7 +352,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{HideFlags:1,Enchantments:[{id:0,lvl:0}],RepairCost:40,CustomModelData:220001}"
+                            "tag": "{RepairCost:40,CustomModelData:220001}"
                         },
                         {
                             "function": "minecraft:set_attributes",
