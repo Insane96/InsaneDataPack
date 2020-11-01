@@ -10,7 +10,7 @@
             "item": "minecraft:honey_bottle"
         },
         "s": {
-            "tag": "minecraft:string"
+            "item": "minecraft:string"
         }
     },
     "result": {
