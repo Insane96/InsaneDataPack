@@ -1,18 +1,18 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "insanedatapack:item/defensive_slimeball"
+        "layer0": "insanedatapack:item/speedy_bone"
     },
     "display": {
       "firstperson_lefthand": {
         "rotation": [0, 180, 0],
-        "translation": [0, 1, 0],
+        "translation": [1, 1, 0],
         "scale": [0.75, 0.75, 0.75]
       },
       "thirdperson_lefthand": {
         "rotation": [90, 180, 0],
-        "translation": [0, 0, 2],
-        "scale": [1, 1, 1]
+        "translation": [-0.5, 0, 2],
+        "scale": [0.5, 0.5, 0.5]
       }
     }
 }
