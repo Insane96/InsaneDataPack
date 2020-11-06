@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:basalt"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:air",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:gold_nugget",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:table_bonus",
+                                    "enchantment": "minecraft:fortune",
+                                    "chances": [
+                                        0.1,
+                                        0.1125,
+                                        0.125,
+                                        0.1375,
+                                        0.15
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

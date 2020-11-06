@@ -16,6 +16,7 @@ Welcome to InsaneDataPack, a modular set of datapacks that I like to play with. 
 * [Passive Modules](#passive-modules)
     * [Recipe Tweaks](#recipe-tweaks)
     * [Better Structure Loot](#better-structure-loot)
+    * [Blocks Tweaks](#blocks-tweaks)
 * [How to Install](#how-to-install)
 
 ## **Functional Modules**
@@ -369,6 +370,12 @@ Villages house chests can have two plushes: Villager and Goat
 
 Basically no changes, but if I get any idea on what to do with Woodland Mansions I will definitely change them since, they're pretty useless. "But they have totems!" ... sure, have you ever made a Raid? They made Mansions useless af  
 Maybe I will make a Datapack for them with better items.
+
+
+### **Blocks Tweaks**
+* Stone has 10% chance to drop an Iron Nugget (increased by 1.25% per Fortune level, no Iron Nuggets with Silk Touch, explosions work)
+* Basalt has 10% chance to drop a Gold Nugget (same as above)
+* Cake will now drop itself if hasn't been yet eaten
 
 ### **How to Install**
 
