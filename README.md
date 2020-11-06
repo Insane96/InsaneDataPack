@@ -186,12 +186,6 @@ Destroying the chest will give back all the stored XP and every item used to cra
 
 ![](/gifs/xp_holder_destroy.gif)
 
-
-### **Depth Mobs**
-
-TODO
-
-
 ## **Passive Modules** 
 Modules that change e.g. Loot Tables but have no functions running
 
@@ -376,6 +370,7 @@ Maybe I will make a Datapack for them with better items.
 * Stone has 10% chance to drop an Iron Nugget (increased by 1.25% per Fortune level, no Iron Nuggets with Silk Touch, explosions work)
 * Basalt has 10% chance to drop a Gold Nugget (same as above)
 * Cake will now drop itself if hasn't been yet eaten
+
 
 ### **How to Install**
 
