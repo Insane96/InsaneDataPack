@@ -17,3 +17,5 @@ scoreboard objectives add ci.blockCounter dummy
 
 scoreboard objectives add ci.const dummy
 scoreboard players set min_trig_time ci.const 30
+
+tellraw @a [{"text":"[InsaneDataPack] ","color":"gold"},{"text":"Cave-In is an EXPERIMENTAL DataPack. It may not work as expected or cause problems. Use at your own risk.","color":"dark_green"}]
