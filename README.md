@@ -24,6 +24,7 @@ Modules that use Functions to do stuff
 
 ### **Cave-Ins**
 
+WARNING: This pack is EXPERIMENTAL, meaning that may break easily.  
 When mining there's a chance that the cave will collapse. Collapses can be smaller or bigger (like the one in the gif). You can stop collapses by using Logs.  
 Ported from [TesseractFour](https://bitbucket.org/ChocoParrot/tesseractfour/src/master/).
 
