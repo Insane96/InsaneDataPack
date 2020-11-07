@@ -1,3 +1,6 @@
+#run this function every second
+schedule function harderground:second 1s
+
 execute in minecraft:overworld as @e[type=#minecraft:hostiles,tag=!hg.processed] store result score @s hg.posY run data get entity @s Pos[1]
 execute in minecraft:overworld as @e[type=#minecraft:hostiles,tag=!hg.processed] if score @s hg.posY < #seaLevel hg.const run tag @s add hg.process
 execute in minecraft:overworld as @e[type=#minecraft:hostiles,tag=!hg.processed] if score @s hg.posY >= #seaLevel hg.const run tag @s add hg.processed
@@ -23,6 +26,3 @@ tag @e[tag=hg.process] remove hg.process
 #UUIDS
 #Max Health: [I;-633757882,1012614665,-1758719176,-1591490096]
 #Movement Speed: [I;1176583236,-1570945107,-1853612076,847996867]
-
-#run this function every second
-schedule function harderground:second 1s

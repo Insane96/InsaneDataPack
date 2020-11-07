@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Harderground",
+        "description": "The deeper you go, the more stats mobs have.",
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:insanedatapack/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
