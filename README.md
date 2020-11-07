@@ -380,4 +380,10 @@ Maybe I will make a Datapack for them with better items.
 
 ### **How to Install**
 
-Just drop the .zip in the `datapacks` folder of your world or drop them into the Data Packs screen on world creation.
+**DataPacks**
+
+Just drop the modules .zip in the `datapacks` folder of your world or drop them into the Data Packs screen on world creation.
+
+**Resource Pack**
+
+Drop the .zip in the `resourcepacks` folder of your minecraft instance (to find that open the Resource Pack screen and use the "Open Resource Pack folder" button).
