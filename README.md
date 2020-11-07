@@ -193,6 +193,11 @@ Modules that change e.g. Loot Tables but have no functions running
 * Crossbows can no longer be crafted, obtaining them requires Pillagers / Piglins
 * Redstone compontents now need Redstone
     * Levers, Pressure Plates and Buttons now all require redstone to be crafted, all can be made in 2x2 grid
+* Rails craftings have been reworked, overall they are cheaper
+    * Rails need Nuggets to be crafted but yeld much more
+    * Powered Rails can be upgraded from normal Rails with some Gold Nuggets and a Redstone
+    * Detector Rails can be crafted from 1 Rail, 1 Stone Pressure Plate and 1 Redstone
+    * Activator Rails can be crafted from 1 Rail and 1 Redstone Torch
 * Sticky Piston and Lead can now be crafted with Honey too
 * Beetroot soups can be made with only 3 beetroots instead of 6
 * Sandstone and Red Sandstone recipe now outputs 2 instead of 1
