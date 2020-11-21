@@ -1,7 +1,7 @@
 execute store result score @s ci.blockCounter run clone ~-4 ~ ~-4 ~4 ~10 ~4 ~-4 ~ ~-4 filtered #cavein:mineable_stones force
 #If there are at least 300 stone blocks in a 9x11x9 area around the player
 tag @s[scores={ci.blockCounter=300..}] add ci.enoughStoneAround
-execute if entity @s[tag=ci.enoughStoneAround] store result score @s ci.blockCounter run clone ~-8 ~ ~-8 ~8 ~3 ~8 ~-8 ~ ~-8 filtered #logs force
+execute if entity @s[tag=ci.enoughStoneAround] store result score @s ci.blockCounter run clone ~-8 ~-2 ~-8 ~8 ~5 ~8 ~-8 ~-2 ~-8 filtered #logs force
 #execute @s[tag=T4_CI_phere,score_T4_pstatsblock=0] ~ ~ ~ clone ~-5 ~1 ~-5 ~5 ~8 ~5 ~-5 ~1 ~-5 filtered force planks -1
 #If there are less than 3 logs in a 17x4x17 area around the player
 tag @s[tag=ci.enoughStoneAround,scores={ci.blockCounter=..2}] add ci.noSupportAround
