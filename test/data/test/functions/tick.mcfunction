@@ -1,3 +1,6 @@
+#run this function every tick
+schedule function test:tick 1
+
 scoreboard objectives add test dummy
 
 execute as @e[tag=tnt_release] at @s positioned ~ ~1 ~ run summon tnt ~ ~ ~ {Fuse:50,Motion:[0.0,0.75,0.75]}
@@ -62,6 +65,4 @@ execute as @e[tag=granade,nbt={Motion:[0.0,0.0,0.0]}] at @s run data modify enti
 execute as @e[tag=ve.void_extractor] at @s store result score @s test run data get entity @s Pos[1]
 execute as @e[tag=ve.void_extractor] at @s run function test:methods/void_extractor_particles
 
-
-#run this function every tick
-schedule function test:tick 1
+execute as @e[tag=cauldron_potion] at @s run particle bubble_pop ~ ~.1 ~ 0.12 0.2 0.12 0 10
