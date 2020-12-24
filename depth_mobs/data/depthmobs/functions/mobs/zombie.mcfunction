@@ -6,4 +6,4 @@ data modify entity @s[scores={random_data=..39},y=20,dy=-20] {} merge value {Arm
 data modify entity @s[scores={random_data=95..},y=40,dy=-40] {} merge value {CustomName:'{"text":"Zombie Summoner"}',Attributes:[{Name:"minecraft:zombie.spawn_reinforcements",Base:1.0},{Name:"minecraft:generic.max_health",Base:40}],Health:40,HandItems:[{id:"minecraft:ender_eye",Count:1b}],HandDropChances:[-200.0f,-200.0f]}
 
 tag @s add dm.processed
-scoreboard players reset @s random_data
+#scoreboard players reset @s random_data

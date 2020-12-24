@@ -1,5 +1,5 @@
 #run this function every second
-schedule function depthmobs:second 1s
+#schedule function depthmobs:second 1s
 
 execute as @e[type=minecraft:zombie,tag=!dm.processed] at @s run function depthmobs:mobs/zombie
 execute as @e[type=minecraft:skeleton,tag=!dm.processed] at @s run function depthmobs:mobs/skeleton
