@@ -1,7 +1,7 @@
 {
     "display": {
-        "title": "Better Cauldrons",
-        "description": "Remove dyes from even more items and harden that Concete faster!",
+        "title": "Watery Cauldrons",
+        "description": "Remove dyes from even more items and harden that Concete faster! Simply toss items in a filled cauldron.",
         "icon": {
             "item": "minecraft:cauldron"
         },
